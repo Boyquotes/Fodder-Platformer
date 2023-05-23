@@ -6,3 +6,4 @@ res://actors/etc/WeaponDurationTimer.tscn
 res://actors/etc/WeaponDurationTimer.gd
 res://actors/weapons/Weapon_RedRed.gd
 res://actors/entities/Player.gd
+res://actors/entities/Boss.tscn
