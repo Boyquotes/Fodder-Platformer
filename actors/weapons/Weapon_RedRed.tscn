@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://c03ly2km4rdte"]
+
+[ext_resource type="Script" path="res://actors/weapons/Weapon_RedRed.gd" id="1_agko6"]
+[ext_resource type="Texture2D" uid="uid://cfjeum62qwgg3" path="res://assets/Weapons/Pistols/Weapon - Pistol 1 (Gray).png" id="2_oqm6k"]
+
+[node name="Weapon_1" type="Node2D"]
+script = ExtResource("1_agko6")
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(4, -4)
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D"]
+unique_name_in_owner = true
+position = Vector2(0, -3)
+texture = ExtResource("2_oqm6k")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Node2D"]
+unique_name_in_owner = true
+z_index = -1
+position = Vector2(4, -2)
+texture = ExtResource("2_oqm6k")

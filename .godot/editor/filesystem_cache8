@@ -1,0 +1,283 @@
+2a60927148abd1d33b818b535e306557
+::res://::1684802606
+icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
+::res://actors/::1684670197
+::res://actors/entities/::1684680516
+Player.gd::GDScript::-1::1684680064::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::5181372897157771706::1684680516::0::1::::<><>::res://actors/entities/Player.gd<>uid://xiya0n4hdol5<>uid://c03ly2km4rdte
+::res://actors/objs/::1684680516
+Item.gd::GDScript::-1::1684671692::0::1::::<>RigidBody2D<>::
+Item.tscn::PackedScene::5875275967392656849::1684680516::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
+::res://actors/weapons/::1684680532
+Weapon_RedRed.gd::GDScript::-1::1684680516::0::1::::<>Node2D<>::
+Weapon_RedRed.tscn::PackedScene::6586077215587983214::1684680532::0::1::::<><>::res://actors/weapons/Weapon_RedRed.gd<>uid://cfjeum62qwgg3
+::res://assets/::1684386973
+::res://assets/BG/::1684386976
+Pluto - Stage BG (BIG).png::CompressedTexture2D::965961321136687962::1684386971::1684386976::1::::<><>::
+Pluto - Stage BG.png::CompressedTexture2D::7099967893144078661::1684386971::1684386976::1::::<><>::
+::res://assets/Boss/::1684386972
+::res://assets/Boss/Boss Animations/::1684386977
+Time Reaper - V3 - ALL Animations (GAL)1.png::CompressedTexture2D::6998206619946162660::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)2.png::CompressedTexture2D::5886306230940157052::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)3.png::CompressedTexture2D::4721153916426918907::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)4.png::CompressedTexture2D::3953183529179782502::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)5.png::CompressedTexture2D::8862773211274163525::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)6.png::CompressedTexture2D::1839509406141439571::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)7.png::CompressedTexture2D::313489740109515067::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)8.png::CompressedTexture2D::899529631016008849::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)9.png::CompressedTexture2D::6656690452174520345::1684386972::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)10.png::CompressedTexture2D::2985023797402317594::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)11.png::CompressedTexture2D::5461189925857674539::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)12.png::CompressedTexture2D::8904307410086785359::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)13.png::CompressedTexture2D::8691637780615491128::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)14.png::CompressedTexture2D::1708151120405596155::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)15.png::CompressedTexture2D::7296079875816605751::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)16.png::CompressedTexture2D::6556765683251310470::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)17.png::CompressedTexture2D::2039182295885954762::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)18.png::CompressedTexture2D::4453886349318243015::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)19.png::CompressedTexture2D::7159426387882282274::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)20.png::CompressedTexture2D::6495694146224551829::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)21.png::CompressedTexture2D::6122060594334180051::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)22.png::CompressedTexture2D::7904093107410446063::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)23.png::CompressedTexture2D::6408706321635059488::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)24.png::CompressedTexture2D::921835921607519398::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)25.png::CompressedTexture2D::3876669803149923534::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)26.png::CompressedTexture2D::3561350863364163688::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)27.png::CompressedTexture2D::8696841739755806425::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)28.png::CompressedTexture2D::6023786242673172328::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)29.png::CompressedTexture2D::6544950552427893496::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)30.png::CompressedTexture2D::5622322371982609988::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)31.png::CompressedTexture2D::6386833461136724706::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)32.png::CompressedTexture2D::6390508166432188207::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)33.png::CompressedTexture2D::6137947295408924914::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)34.png::CompressedTexture2D::6297165724108274695::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)35.png::CompressedTexture2D::5697304922451090083::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)36.png::CompressedTexture2D::9102543131732179181::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)37.png::CompressedTexture2D::3437136867802681621::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)38.png::CompressedTexture2D::2473502757890080045::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)39.png::CompressedTexture2D::7471352614941515579::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)40.png::CompressedTexture2D::647055386277736168::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)41.png::CompressedTexture2D::8884083980129149367::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)42.png::CompressedTexture2D::1517660928588968091::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)43.png::CompressedTexture2D::1392569265337242786::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)44.png::CompressedTexture2D::7170577944261409784::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)45.png::CompressedTexture2D::2956211025788649219::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)46.png::CompressedTexture2D::281301718066636758::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)47.png::CompressedTexture2D::4445841261470898164::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)48.png::CompressedTexture2D::1568342152240712528::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)49.png::CompressedTexture2D::5774342468731505831::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)50.png::CompressedTexture2D::2619797074094696088::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)51.png::CompressedTexture2D::2457005844277641727::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)52.png::CompressedTexture2D::2968918157236304488::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)53.png::CompressedTexture2D::2714273057539327449::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)54.png::CompressedTexture2D::8273497287209171351::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)55.png::CompressedTexture2D::2868557972169142003::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)56.png::CompressedTexture2D::6975494902011007799::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)57.png::CompressedTexture2D::3485636536380301843::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)58.png::CompressedTexture2D::966467603347118241::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)59.png::CompressedTexture2D::8357061790148678926::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)60.png::CompressedTexture2D::3837668565574747866::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)61.png::CompressedTexture2D::1037162766345281899::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)62.png::CompressedTexture2D::4205950560969377385::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)63.png::CompressedTexture2D::2995745885052945006::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)64.png::CompressedTexture2D::6896874891508066809::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)65.png::CompressedTexture2D::2931923718912378260::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)66.png::CompressedTexture2D::8170990583467735042::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)67.png::CompressedTexture2D::7698743994637483898::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)68.png::CompressedTexture2D::8994694274682812393::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)69.png::CompressedTexture2D::20360930345083014::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)70.png::CompressedTexture2D::9158305292061702014::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)71.png::CompressedTexture2D::1559975448007227921::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)72.png::CompressedTexture2D::5223714494306749070::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)73.png::CompressedTexture2D::7706698668203152842::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)74.png::CompressedTexture2D::8649468714168028345::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)75.png::CompressedTexture2D::8870638491292901234::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)76.png::CompressedTexture2D::8234758673375112883::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)77.png::CompressedTexture2D::138656036489282616::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)78.png::CompressedTexture2D::1874868177868759243::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)79.png::CompressedTexture2D::3447137165364465747::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)80.png::CompressedTexture2D::5204868924303623367::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)81.png::CompressedTexture2D::2088608261683369655::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)82.png::CompressedTexture2D::4985496623244384908::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)83.png::CompressedTexture2D::3207835643496611958::1684386971::1684386976::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)84.png::CompressedTexture2D::7842089465614769960::1684386971::1684386977::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)85.png::CompressedTexture2D::3691798652903043524::1684386971::1684386977::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)86.png::CompressedTexture2D::2354606562905958683::1684386971::1684386977::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)87.png::CompressedTexture2D::4463771539480934743::1684386971::1684386977::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)88.png::CompressedTexture2D::3299286836935567809::1684386971::1684386977::1::::<><>::
+Time Reaper - V3 - ALL Animations (GAL)89.png::CompressedTexture2D::1010091002999575533::1684386972::1684386977::1::::<><>::
+::res://assets/Boss/Boss Weapons/::1684386977
+Attack - Skull Blast (Blue).png::CompressedTexture2D::8512437844437848720::1684386972::1684386977::1::::<><>::
+Attack - Skull Blast (Green).png::CompressedTexture2D::7062014901624195549::1684386972::1684386977::1::::<><>::
+Attack - Skull Blast (Orange).png::CompressedTexture2D::5014224577221169402::1684386972::1684386977::1::::<><>::
+Attack - Skull Blast (Reference).png::CompressedTexture2D::6390906291734275749::1684386972::1684386977::1::::<><>::
+Boss Summon - Ghost.png::CompressedTexture2D::8431447229497721562::1684386972::1684386977::1::::<><>::
+Boss Summon - Skull.png::CompressedTexture2D::8568768412340894096::1684386972::1684386977::1::::<><>::
+Boss Weapon - Blood Sword.png::CompressedTexture2D::7702891025277745895::1684386972::1684386977::1::::<><>::
+Boss Weapon - Bloody Axes.png::CompressedTexture2D::3684659709159119677::1684386972::1684386977::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)1.png::CompressedTexture2D::6638875291900776684::1684386972::1684386977::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)2.png::CompressedTexture2D::7961273056127273657::1684386972::1684386977::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)3.png::CompressedTexture2D::8956182253987759721::1684386972::1684386976::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)4.png::CompressedTexture2D::878439489846704937::1684386972::1684386976::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)5.png::CompressedTexture2D::8053936198259038868::1684386972::1684386976::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)6.png::CompressedTexture2D::6511772306069075687::1684386972::1684386976::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)7.png::CompressedTexture2D::8305870979637884259::1684386972::1684386976::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)8.png::CompressedTexture2D::2167270984781546152::1684386972::1684386977::1::::<><>::
+Boss Weapon - Spawn Blood Sword (GAL)9.png::CompressedTexture2D::9119902826098857922::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)1.png::CompressedTexture2D::2322912168587972292::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)2.png::CompressedTexture2D::6924838479356947522::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)3.png::CompressedTexture2D::6180312869536984489::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)4.png::CompressedTexture2D::4758733463975617415::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)5.png::CompressedTexture2D::8043253151863175501::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)6.png::CompressedTexture2D::1633756525703981209::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)7.png::CompressedTexture2D::5481071114612084081::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)8.png::CompressedTexture2D::3931070607768419607::1684386972::1684386977::1::::<><>::
+Boss Weapon - Summon Bloody Axes (GAL)9.png::CompressedTexture2D::5750227068742593033::1684386972::1684386977::1::::<><>::
+::res://assets/Music (Version 2)/::1684386978
+Computer Screen (1).wav::AudioStreamWAV::1867370881385377067::1684386972::1684386977::1::::<><>::
+Computer Screen Intro (1).wav::AudioStreamWAV::7262856008798302233::1684386972::1684386977::1::::<><>::
+Heart With A Face.wav::AudioStreamWAV::5600923561701159253::1684386972::1684386978::1::::<><>::
+Menu (1).wav::AudioStreamWAV::6195002836138459718::1684386972::1684386977::1::::<><>::
+Time Mage (1).wav::AudioStreamWAV::8370566251260411758::1684386972::1684386978::1::::<><>::
+Title Screen.wav::AudioStreamWAV::294450029976265226::1684386972::1684386977::1::::<><>::
+::res://assets/Player Animations/::1684679805
+Player - Spritesheet.png::CompressedTexture2D::1632316968026945332::1684679804::1684679805::1::::<><>::
+Player Teleport - Spritesheet.png::CompressedTexture2D::7713698127992818254::1684679804::1684679805::1::::<><>::
+Pluto - Spritesheet.png::CompressedTexture2D::3411574021390195052::1684679804::1684679805::1::::<><>::
+::res://assets/Player Life/::1684386975
+Health UI (Heart Battery).png::CompressedTexture2D::6702068177793049327::1684386973::1684386974::1::::<><>::
+Player - Health Bar (GAL)1.png::CompressedTexture2D::7000502143161394716::1684386973::1684386974::1::::<><>::
+Player - Health Bar (GAL)2.png::CompressedTexture2D::1600529806159018113::1684386973::1684386974::1::::<><>::
+Player - Health Bar (GAL)3.png::CompressedTexture2D::104335634879910262::1684386973::1684386975::1::::<><>::
+Player - Health Bar (GAL)4.png::CompressedTexture2D::2275918058955491035::1684386973::1684386975::1::::<><>::
+Player - Health Bar (GAL)5.png::CompressedTexture2D::3692552783571502156::1684386973::1684386975::1::::<><>::
+Player - Health Bar (GAL)6.png::CompressedTexture2D::5058922409994919765::1684386973::1684386975::1::::<><>::
+Player - Health Bar (GAL)7.png::CompressedTexture2D::7280934481570824724::1684386973::1684386975::1::::<><>::
+Player - Health Bar (GAL)8.png::CompressedTexture2D::8587989178794052195::1684386973::1684386975::1::::<><>::
+::res://assets/UI/::1684386975
+Boss Jam 2023 - Title.png::CompressedTexture2D::3724768632931295793::1684386972::1684386975::1::::<><>::
+Item - UI Box (9-Slice).png::CompressedTexture2D::8866697960237207371::1684386972::1684386975::1::::<><>::
+::res://assets/UI/Ready Font/::1684386975
+Image21.png::CompressedTexture2D::2983482204231335031::1684386972::1684386975::1::::<><>::
+Image22.png::CompressedTexture2D::8453021310973984967::1684386972::1684386975::1::::<><>::
+Image23.png::CompressedTexture2D::4125888172865121289::1684386972::1684386975::1::::<><>::
+Image24.png::CompressedTexture2D::6315348513973579123::1684386972::1684386975::1::::<><>::
+Image25.png::CompressedTexture2D::4220928614533418833::1684386972::1684386975::1::::<><>::
+Image26.png::CompressedTexture2D::3266022163110943356::1684386972::1684386975::1::::<><>::
+Image27.png::CompressedTexture2D::750216206857902545::1684386972::1684386975::1::::<><>::
+Image28.png::CompressedTexture2D::6735768146899584584::1684386972::1684386975::1::::<><>::
+Image29.png::CompressedTexture2D::1563384877730295576::1684386972::1684386975::1::::<><>::
+Image210.png::CompressedTexture2D::1918365537004856700::1684386972::1684386975::1::::<><>::
+Image211.png::CompressedTexture2D::1878638318708559617::1684386972::1684386975::1::::<><>::
+Image212.png::CompressedTexture2D::256643170371121647::1684386972::1684386975::1::::<><>::
+::res://assets/UI/Weapon Icons/::1684386976
+HUD - Weapon Icon Layouts (GAL)1.png::CompressedTexture2D::1869611280827150524::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)2.png::CompressedTexture2D::8543373094743736625::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)3.png::CompressedTexture2D::654333752838657538::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)4.png::CompressedTexture2D::1644909475879308183::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)5.png::CompressedTexture2D::1475748908738993286::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)6.png::CompressedTexture2D::2985909598313866655::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)7.png::CompressedTexture2D::7313599091239628731::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)8.png::CompressedTexture2D::3557996637349657931::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)9.png::CompressedTexture2D::8356643755089168640::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)10.png::CompressedTexture2D::4691226628589049098::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)11.png::CompressedTexture2D::302210099805336488::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)12.png::CompressedTexture2D::5823907808887657174::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)13.png::CompressedTexture2D::1546558460635188279::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)14.png::CompressedTexture2D::1234611068632559972::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)15.png::CompressedTexture2D::19105082213518921::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)16.png::CompressedTexture2D::4693844892446677249::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)17.png::CompressedTexture2D::1096839466682035219::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)18.png::CompressedTexture2D::2475274046151245019::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)19.png::CompressedTexture2D::1595533628760304952::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)20.png::CompressedTexture2D::7855274116669925542::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)21.png::CompressedTexture2D::132095388739219156::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)22.png::CompressedTexture2D::2778510514958026799::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)23.png::CompressedTexture2D::8916084057339017057::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)24.png::CompressedTexture2D::1216068633302930085::1684386972::1684386975::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)25.png::CompressedTexture2D::8446790561308200669::1684386972::1684386976::1::::<><>::
+HUD - Weapon Icon Layouts (GAL)26.png::CompressedTexture2D::9046204912228568065::1684386972::1684386976::1::::<><>::
+::res://assets/UI/Weapon Materials/::1684625482
+HUD - Material Icon Layouts (GAL)1.png::CompressedTexture2D::4586206212877143572::1684386972::1684386976::1::::<><>::
+HUD - Material Icon Layouts (GAL)2.png::CompressedTexture2D::2125331355177570560::1684386972::1684386976::1::::<><>::
+HUD - Material Icon Layouts (GAL)3.png::CompressedTexture2D::540769160129719428::1684386972::1684386976::1::::<><>::
+HUD - Material Icon Layouts (GAL)4.png::CompressedTexture2D::4163230012229631613::1684386972::1684386976::1::::<><>::
+HUD - Material Icon Layouts (GAL)5.png::CompressedTexture2D::7579589116331396973::1684386972::1684386976::1::::<><>::
+HUD - Material Icon Layouts (GAL)6.png::CompressedTexture2D::903578880711335207::1684386972::1684386976::1::::<><>::
+Item - Pixel Cube (Blue).png::CompressedTexture2D::5496435358598558810::1684625481::1684625482::1::::<><>::
+Item - Pixel Cube (Green).png::CompressedTexture2D::2729277991115218861::1684625466::1684625482::1::::<><>::
+Item - Pixel Cube (Red).png::CompressedTexture2D::4491247141636438763::1684625474::1684625482::1::::<><>::
+Material - Blue.png::CompressedTexture2D::5769901028239217383::1684386972::1684386975::1::::<><>::
+Material - Gray.png::CompressedTexture2D::5750774079245727112::1684386972::1684386975::1::::<><>::
+Material - Green.png::CompressedTexture2D::928413546292198649::1684386972::1684386975::1::::<><>::
+Material - Red.png::CompressedTexture2D::4302024571713896011::1684386972::1684386975::1::::<><>::
+Material - Yellow.png::CompressedTexture2D::7932439753223950969::1684386972::1684386975::1::::<><>::
+::res://assets/Weapons/::1684386975
+Bee (Bullet).png::CompressedTexture2D::1176274717723467342::1684386973::1684386975::1::::<><>::
+Bubble Blast (Bullet).png::CompressedTexture2D::5855576031506303547::1684386973::1684386975::1::::<><>::
+Grenade (Bullet).png::CompressedTexture2D::1442064201073601988::1684386974::1684386975::1::::<><>::
+Heart Grenade (Bullet).png::CompressedTexture2D::8241400921077656942::1684386974::1684386975::1::::<><>::
+Weapon - Axe.png::CompressedTexture2D::2224260875275166456::1684386974::1684386975::1::::<><>::
+Weapon - Bee Hive (V2).png::CompressedTexture2D::1341687785511143101::1684386974::1684386975::1::::<><>::
+Weapon - Bee Hive.png::CompressedTexture2D::4403273079293196812::1684386974::1684386975::1::::<><>::
+Weapon - Boomerang (V2).png::CompressedTexture2D::2636568063840653585::1684386974::1684386975::1::::<><>::
+Weapon - Boomerang (V2.1).png::CompressedTexture2D::5299233989537721552::1684386974::1684386975::1::::<><>::
+Weapon - Boomerang.png::CompressedTexture2D::7368203985040747133::1684386974::1684386975::1::::<><>::
+Weapon - Bubble Wand (Hand).png::CompressedTexture2D::7835360010568775557::1684386974::1684386975::1::::<><>::
+Weapon - Finger Point.png::CompressedTexture2D::661758825614225950::1684386974::1684386975::1::::<><>::
+Weapon - Open Hand.png::CompressedTexture2D::2695549523281966828::1684386974::1684386975::1::::<><>::
+Weapon - Orbital Laser (Hand).png::CompressedTexture2D::2987907133059968042::1684386974::1684386975::1::::<><>::
+Weapon - Pistol 1 (Gray) ICON.png::CompressedTexture2D::3943909905173039896::1684386974::1684386975::1::::<><>::
+Weapon - Shot Gun (ICON).png::CompressedTexture2D::7155462587138638564::1684386974::1684386975::1::::<><>::
+Weapon - Shot Gun.png::CompressedTexture2D::3704162527237089061::1684386974::1684386975::1::::<><>::
+Weapon - Soccer Ball.png::CompressedTexture2D::2453710438648746679::1684386974::1684386975::1::::<><>::
+Weapon - Sword.png::CompressedTexture2D::7933305900222686815::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/360 Bullet Hell/::1684386975
+360 Bullet Hell (Bullet).png::CompressedTexture2D::672955720235562227::1684386973::1684386975::1::::<><>::
+::res://assets/Weapons/Bouncer Bullet/::1684386975
+Weapon - Machine Gun (V2).png::CompressedTexture2D::7027611359173885825::1684386973::1684386975::1::::<><>::
+::res://assets/Weapons/Cursors/::1684386975
+Weapon - Weapon Reticle (GAL)1.png::CompressedTexture2D::3372611802582171405::1684386973::1684386975::1::::<><>::
+Weapon - Weapon Reticle (GAL)2.png::CompressedTexture2D::4899532360843851015::1684386973::1684386975::1::::<><>::
+Weapon - Weapon Reticle (GAL)3.png::CompressedTexture2D::8920352538450667991::1684386973::1684386975::1::::<><>::
+Weapon - Weapon Reticle (GAL)4.png::CompressedTexture2D::4470054759387713157::1684386973::1684386975::1::::<><>::
+Weapon - Weapon Reticle (GAL)5.png::CompressedTexture2D::4096683813842144493::1684386974::1684386975::1::::<><>::
+Weapon - Weapon Reticle (GAL)6.png::CompressedTexture2D::3483307311620229796::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/Explosion/::1684386974
+::res://assets/Weapons/Follower - Bullet/::1684386975
+Follower (Bullet).png::CompressedTexture2D::7804783936813972077::1684386974::1684386975::1::::<><>::
+Follower (Projectile Bullet).png::CompressedTexture2D::587285969380441025::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/Follower - Expander/::1684386975
+Follower (Expander).png::CompressedTexture2D::8941219475983317713::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/Follower - Laser/::1684386975
+Follower (Laser).png::CompressedTexture2D::6965626265690035195::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/Homing Missile/::1684386975
+Weapon - Explosive [OLD].png::CompressedTexture2D::9134955634429782249::1684386974::1684386975::1::::<><>::
+Weapon - Homing Missile Gun.png::CompressedTexture2D::403901197583957818::1684386974::1684386975::1::::<><>::
+Weapon - Homing Missile.png::CompressedTexture2D::4353205807994496139::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/Pistols/::1684678775
+Weapon - Pistol 1 (Gray).png::CompressedTexture2D::5142644248630214096::1684678773::1684678775::1::::<><>::
+Weapon - Pistol 2 (Red).png::CompressedTexture2D::7409035199576143527::1684386974::1684386975::1::::<><>::
+Weapon - Pistol 3 (Green).png::CompressedTexture2D::2459619780214617956::1684386974::1684386975::1::::<><>::
+Weapon - Pistol 4 (Blue).png::CompressedTexture2D::5339444748794406037::1684386974::1684386975::1::::<><>::
+Weapon - Pistol 5 (Yellow).png::CompressedTexture2D::7057170708676950610::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/Rainbow Laser Gun/::1684386975
+Laser References.png::CompressedTexture2D::559176534516775429::1684386974::1684386975::1::::<><>::
+Weapon - Laser Gun.png::CompressedTexture2D::5362411318565379032::1684386974::1684386975::1::::<><>::
+Weapon - Machine Gun.png::CompressedTexture2D::1156673316940078781::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/RPG Hero/::1684386975
+Weapon - RPG Hero.png::CompressedTexture2D::8532111941960518211::1684386974::1684386975::1::::<><>::
+::res://assets/Weapons/Turret/::1684386975
+Weapon - Turret (V2).png::CompressedTexture2D::4847068252820631176::1684386974::1684386975::1::::<><>::
+Weapon - Turret (V3).png::CompressedTexture2D::2160215993814549600::1684386974::1684386975::1::::<><>::
+Weapon - Turret.png::CompressedTexture2D::5973534396989739087::1684386974::1684386975::1::::<><>::
+::res://reso/::1684625806
+::res://reso/data/::1684679186
+::res://reso/data/anims/::1684679181
+::res://reso/data/icons/::1684625811
+::res://scenes/::1684680516
+World.gd::GDScript::-1::1684672331::0::1::::<>Node2D<>::
+World.tscn::PackedScene::5135273808706151712::1684680516::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://cxbu0avkog8et
+::res://scripts/::1684624142
+::res://scripts/globals/::1684672425
+ManagerGame.gd::GDScript::-1::1684672425::0::1::::<>Node<>::

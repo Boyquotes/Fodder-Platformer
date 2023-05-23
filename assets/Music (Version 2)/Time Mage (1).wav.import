@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dri1adx5t4f7c"
+path="res://.godot/imported/Time Mage (1).wav-da7c16e5162acc863f4e8dd0f7789558.sample"
+
+[deps]
+
+source_file="res://assets/Music (Version 2)/Time Mage (1).wav"
+dest_files=["res://.godot/imported/Time Mage (1).wav-da7c16e5162acc863f4e8dd0f7789558.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
