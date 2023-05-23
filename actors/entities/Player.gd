@@ -29,9 +29,6 @@ func _process(delta):
 
 
 func _physics_process(delta):
-	
-	
-	
 	if !is_on_floor():
 		vel.y += gravity
 	

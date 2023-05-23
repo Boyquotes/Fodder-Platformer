@@ -12,6 +12,7 @@ size = Vector2(644, 20)
 script = ExtResource("1_ggqie")
 
 [node name="Back" type="Sprite2D" parent="."]
+z_index = -2
 position = Vector2(266, 151)
 scale = Vector2(2.55, 2.55)
 texture = ExtResource("1_ti0uo")
@@ -19,7 +20,7 @@ texture = ExtResource("1_ti0uo")
 [node name="Sort" type="Node2D" parent="."]
 
 [node name="Player" parent="Sort" instance=ExtResource("2_mogo8")]
-position = Vector2(92, 54)
+position = Vector2(103, 96)
 
 [node name="Boss" parent="Sort" instance=ExtResource("4_nfd8j")]
 position = Vector2(340, 76)

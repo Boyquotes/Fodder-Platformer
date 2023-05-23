@@ -2,23 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://bouuejkk45l3i" path="res://assets/Player Animations/Pluto - Spritesheet.png" id="1_cs4lw"]
 
-[sub_resource type="Animation" id="Animation_i0mv8"]
-resource_name = "idle"
-length = 1.00001
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-}
-
 [sub_resource type="Animation" id="Animation_mevth"]
 length = 0.001
 tracks/0/type = "value"
@@ -47,6 +30,23 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
 "values": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+}
+
+[sub_resource type="Animation" id="Animation_i0mv8"]
+resource_name = "idle"
+length = 1.00001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_gtsfw"]
