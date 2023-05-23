@@ -1,0 +1,6 @@
+[gd_resource type="CanvasTexture" load_steps=2 format=3 uid="uid://ce6d6sckxoen1"]
+
+[ext_resource type="Texture2D" uid="uid://df8uywrk4k30l" path="res://assets/UI/Weapon Materials/HUD - Material Icon Layouts (GAL)5.png" id="1_wmya8"]
+
+[resource]
+diffuse_texture = ExtResource("1_wmya8")

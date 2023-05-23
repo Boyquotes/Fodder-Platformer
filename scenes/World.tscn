@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://cfftheasvhniu"]
+[gd_scene load_steps=7 format=3 uid="uid://cfftheasvhniu"]
 
 [ext_resource type="Script" path="res://scenes/World.gd" id="1_ggqie"]
 [ext_resource type="Texture2D" uid="uid://c8fjo0tj4f542" path="res://assets/BG/Pluto - Stage BG.png" id="1_ti0uo"]
 [ext_resource type="PackedScene" uid="uid://cf25ppr6hlmmk" path="res://actors/entities/Player.tscn" id="2_mogo8"]
+[ext_resource type="PackedScene" uid="uid://dtluac5j5kndr" path="res://scenes/UI.tscn" id="2_uun1s"]
 [ext_resource type="PackedScene" uid="uid://cndgw0a24gk7s" path="res://actors/entities/Boss.tscn" id="4_nfd8j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4v4fw"]
@@ -10,6 +11,10 @@ size = Vector2(644, 20)
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_ggqie")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UI" parent="CanvasLayer" instance=ExtResource("2_uun1s")]
 
 [node name="Back" type="Sprite2D" parent="."]
 z_index = -2
