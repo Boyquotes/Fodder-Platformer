@@ -1,8 +1,7 @@
-[gd_scene load_steps=12 format=3 uid="uid://cf25ppr6hlmmk"]
+[gd_scene load_steps=11 format=3 uid="uid://cf25ppr6hlmmk"]
 
 [ext_resource type="Script" path="res://actors/entities/Player.gd" id="1_52sel"]
 [ext_resource type="Texture2D" uid="uid://xiya0n4hdol5" path="res://assets/Player Animations/Player - Spritesheet.png" id="2_8ah8e"]
-[ext_resource type="PackedScene" uid="uid://c03ly2km4rdte" path="res://actors/weapons/Weapon_RedRed.tscn" id="3_nkjoa"]
 
 [sub_resource type="Animation" id="Animation_wkimc"]
 length = 0.001
@@ -137,5 +136,3 @@ shape = SubResource("CircleShape2D_bvqkf")
 [node name="Aim" type="Node2D" parent="."]
 unique_name_in_owner = true
 position = Vector2(0, -18)
-
-[node name="Weapon_1" parent="Aim" instance=ExtResource("3_nkjoa")]

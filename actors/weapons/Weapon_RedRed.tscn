@@ -20,6 +20,6 @@ offset = Vector2(14, 0)
 [node name="Gun2" type="Sprite2D" parent="Node2D"]
 unique_name_in_owner = true
 z_index = -1
-position = Vector2(8, 1)
+position = Vector2(4, 2)
 texture = ExtResource("2_oqm6k")
 offset = Vector2(14, 0)
