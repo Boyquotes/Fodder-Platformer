@@ -11,4 +11,4 @@ func _physics_process(delta):
 		get_node('%Sprite2D').flip_h = false
 		get_node('%Sprite2D2').flip_h = false
 	
-#	$Sprite2D.look_at(get_global_mouse_position())
+	$Node2D.look_at(get_global_mouse_position())

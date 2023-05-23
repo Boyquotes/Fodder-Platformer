@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbnc1l1qr84q2"]
+
+[ext_resource type="Script" path="res://actors/etc/WeaponDurationTimer.gd" id="1_ix1fs"]
+
+[node name="WeaponDurationTimer" type="Timer"]
+wait_time = 10.0
+autostart = true
+script = ExtResource("1_ix1fs")
+
+[connection signal="timeout" from="." to="." method="_on_timeout"]

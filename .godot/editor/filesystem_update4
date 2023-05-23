@@ -2,5 +2,7 @@ res://scenes/World.tscn
 res://actors/entities/Player.tscn
 res://actors/objs/Item.tscn
 res://actors/weapons/Weapon_RedRed.tscn
+res://actors/etc/WeaponDurationTimer.tscn
+res://actors/etc/WeaponDurationTimer.gd
+res://actors/weapons/Weapon_RedRed.gd
 res://actors/entities/Player.gd
-res://scripts/globals/ManagerGame.gd

@@ -40,21 +40,24 @@ func _physics_process(delta):
 	
 	vel.x = Input.get_action_strength('ui_right') - Input.get_action_strength('ui_left')
 	
+	var look = global_position.direction_to(get_global_mouse_position())
+	if look.x > 0.5:
+		sprite.flip_h = false
+	elif look.x < -0.5:
+		sprite.flip_h = true
+	
+	if vel.x > 0.5:
+		sprite.flip_h = false
+	elif vel.x < -0.5:
+		sprite.flip_h = true
+	
 	if has_weapon:
-		if vel.x > 0.5:
-			sprite.flip_h = false
-			anim.play("run")
-		elif vel.x < -0.5:
-			sprite.flip_h = true
+		if vel.x != 0.0:
 			anim.play("run")
 		else:
 			anim.play("idle")
 	else:
-		if vel.x > 0.5:
-			sprite.flip_h = false
-			anim.play("run_h")
-		elif vel.x < -0.5:
-			sprite.flip_h = true
+		if vel.x != 0.0:
 			anim.play("run_h")
 		else:
 			anim.play("idle_h")

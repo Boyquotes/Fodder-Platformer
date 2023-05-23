@@ -1,22 +1,22 @@
 2a60927148abd1d33b818b535e306557
-::res://::1684802606
+::res://::1684833623
 icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
-::res://actors/::1684670197
-::res://actors/entities/::1684680516
-Player.gd::GDScript::-1::1684680064::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::5181372897157771706::1684680516::0::1::::<><>::res://actors/entities/Player.gd<>uid://xiya0n4hdol5<>uid://c03ly2km4rdte
-::res://actors/objs/::1684680516
+::res://actors/::1684832862
+::res://actors/entities/::1684833766
+Player.gd::GDScript::-1::1684803299::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::5181372897157771706::1684833766::0::1::::<><>::res://actors/entities/Player.gd<>uid://xiya0n4hdol5
+::res://actors/objs/::1684833766
 Item.gd::GDScript::-1::1684671692::0::1::::<>RigidBody2D<>::
-Item.tscn::PackedScene::5875275967392656849::1684680516::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
-::res://actors/weapons/::1684680532
+Item.tscn::PackedScene::5875275967392656849::1684833766::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
+::res://actors/weapons/::1684833767
 Weapon_RedRed.gd::GDScript::-1::1684680516::0::1::::<>Node2D<>::
-Weapon_RedRed.tscn::PackedScene::6586077215587983214::1684680532::0::1::::<><>::res://actors/weapons/Weapon_RedRed.gd<>uid://cfjeum62qwgg3
-::res://assets/::1684386973
-::res://assets/BG/::1684386976
+Weapon_RedRed.tscn::PackedScene::6586077215587983214::1684833766::0::1::::<><>::res://actors/weapons/Weapon_RedRed.gd<>uid://cfjeum62qwgg3
+::res://assets/::1684832863
+::res://assets/BG/::1684832862
 Pluto - Stage BG (BIG).png::CompressedTexture2D::965961321136687962::1684386971::1684386976::1::::<><>::
 Pluto - Stage BG.png::CompressedTexture2D::7099967893144078661::1684386971::1684386976::1::::<><>::
-::res://assets/Boss/::1684386972
-::res://assets/Boss/Boss Animations/::1684386977
+::res://assets/Boss/::1684832862
+::res://assets/Boss/Boss Animations/::1684832862
 Time Reaper - V3 - ALL Animations (GAL)1.png::CompressedTexture2D::6998206619946162660::1684386971::1684386976::1::::<><>::
 Time Reaper - V3 - ALL Animations (GAL)2.png::CompressedTexture2D::5886306230940157052::1684386971::1684386976::1::::<><>::
 Time Reaper - V3 - ALL Animations (GAL)3.png::CompressedTexture2D::4721153916426918907::1684386971::1684386976::1::::<><>::
@@ -106,7 +106,7 @@ Time Reaper - V3 - ALL Animations (GAL)86.png::CompressedTexture2D::235460656290
 Time Reaper - V3 - ALL Animations (GAL)87.png::CompressedTexture2D::4463771539480934743::1684386971::1684386977::1::::<><>::
 Time Reaper - V3 - ALL Animations (GAL)88.png::CompressedTexture2D::3299286836935567809::1684386971::1684386977::1::::<><>::
 Time Reaper - V3 - ALL Animations (GAL)89.png::CompressedTexture2D::1010091002999575533::1684386972::1684386977::1::::<><>::
-::res://assets/Boss/Boss Weapons/::1684386977
+::res://assets/Boss/Boss Weapons/::1684832862
 Attack - Skull Blast (Blue).png::CompressedTexture2D::8512437844437848720::1684386972::1684386977::1::::<><>::
 Attack - Skull Blast (Green).png::CompressedTexture2D::7062014901624195549::1684386972::1684386977::1::::<><>::
 Attack - Skull Blast (Orange).png::CompressedTexture2D::5014224577221169402::1684386972::1684386977::1::::<><>::
@@ -133,18 +133,18 @@ Boss Weapon - Summon Bloody Axes (GAL)6.png::CompressedTexture2D::16337565257039
 Boss Weapon - Summon Bloody Axes (GAL)7.png::CompressedTexture2D::5481071114612084081::1684386972::1684386977::1::::<><>::
 Boss Weapon - Summon Bloody Axes (GAL)8.png::CompressedTexture2D::3931070607768419607::1684386972::1684386977::1::::<><>::
 Boss Weapon - Summon Bloody Axes (GAL)9.png::CompressedTexture2D::5750227068742593033::1684386972::1684386977::1::::<><>::
-::res://assets/Music (Version 2)/::1684386978
+::res://assets/Music (Version 2)/::1684832862
 Computer Screen (1).wav::AudioStreamWAV::1867370881385377067::1684386972::1684386977::1::::<><>::
 Computer Screen Intro (1).wav::AudioStreamWAV::7262856008798302233::1684386972::1684386977::1::::<><>::
 Heart With A Face.wav::AudioStreamWAV::5600923561701159253::1684386972::1684386978::1::::<><>::
 Menu (1).wav::AudioStreamWAV::6195002836138459718::1684386972::1684386977::1::::<><>::
 Time Mage (1).wav::AudioStreamWAV::8370566251260411758::1684386972::1684386978::1::::<><>::
 Title Screen.wav::AudioStreamWAV::294450029976265226::1684386972::1684386977::1::::<><>::
-::res://assets/Player Animations/::1684679805
+::res://assets/Player Animations/::1684832862
 Player - Spritesheet.png::CompressedTexture2D::1632316968026945332::1684679804::1684679805::1::::<><>::
 Player Teleport - Spritesheet.png::CompressedTexture2D::7713698127992818254::1684679804::1684679805::1::::<><>::
 Pluto - Spritesheet.png::CompressedTexture2D::3411574021390195052::1684679804::1684679805::1::::<><>::
-::res://assets/Player Life/::1684386975
+::res://assets/Player Life/::1684832862
 Health UI (Heart Battery).png::CompressedTexture2D::6702068177793049327::1684386973::1684386974::1::::<><>::
 Player - Health Bar (GAL)1.png::CompressedTexture2D::7000502143161394716::1684386973::1684386974::1::::<><>::
 Player - Health Bar (GAL)2.png::CompressedTexture2D::1600529806159018113::1684386973::1684386974::1::::<><>::
@@ -154,10 +154,10 @@ Player - Health Bar (GAL)5.png::CompressedTexture2D::3692552783571502156::168438
 Player - Health Bar (GAL)6.png::CompressedTexture2D::5058922409994919765::1684386973::1684386975::1::::<><>::
 Player - Health Bar (GAL)7.png::CompressedTexture2D::7280934481570824724::1684386973::1684386975::1::::<><>::
 Player - Health Bar (GAL)8.png::CompressedTexture2D::8587989178794052195::1684386973::1684386975::1::::<><>::
-::res://assets/UI/::1684386975
+::res://assets/UI/::1684832863
 Boss Jam 2023 - Title.png::CompressedTexture2D::3724768632931295793::1684386972::1684386975::1::::<><>::
 Item - UI Box (9-Slice).png::CompressedTexture2D::8866697960237207371::1684386972::1684386975::1::::<><>::
-::res://assets/UI/Ready Font/::1684386975
+::res://assets/UI/Ready Font/::1684832863
 Image21.png::CompressedTexture2D::2983482204231335031::1684386972::1684386975::1::::<><>::
 Image22.png::CompressedTexture2D::8453021310973984967::1684386972::1684386975::1::::<><>::
 Image23.png::CompressedTexture2D::4125888172865121289::1684386972::1684386975::1::::<><>::
@@ -170,7 +170,7 @@ Image29.png::CompressedTexture2D::1563384877730295576::1684386972::1684386975::1
 Image210.png::CompressedTexture2D::1918365537004856700::1684386972::1684386975::1::::<><>::
 Image211.png::CompressedTexture2D::1878638318708559617::1684386972::1684386975::1::::<><>::
 Image212.png::CompressedTexture2D::256643170371121647::1684386972::1684386975::1::::<><>::
-::res://assets/UI/Weapon Icons/::1684386976
+::res://assets/UI/Weapon Icons/::1684832863
 HUD - Weapon Icon Layouts (GAL)1.png::CompressedTexture2D::1869611280827150524::1684386972::1684386975::1::::<><>::
 HUD - Weapon Icon Layouts (GAL)2.png::CompressedTexture2D::8543373094743736625::1684386972::1684386975::1::::<><>::
 HUD - Weapon Icon Layouts (GAL)3.png::CompressedTexture2D::654333752838657538::1684386972::1684386975::1::::<><>::
@@ -197,7 +197,7 @@ HUD - Weapon Icon Layouts (GAL)23.png::CompressedTexture2D::8916084057339017057:
 HUD - Weapon Icon Layouts (GAL)24.png::CompressedTexture2D::1216068633302930085::1684386972::1684386975::1::::<><>::
 HUD - Weapon Icon Layouts (GAL)25.png::CompressedTexture2D::8446790561308200669::1684386972::1684386976::1::::<><>::
 HUD - Weapon Icon Layouts (GAL)26.png::CompressedTexture2D::9046204912228568065::1684386972::1684386976::1::::<><>::
-::res://assets/UI/Weapon Materials/::1684625482
+::res://assets/UI/Weapon Materials/::1684832863
 HUD - Material Icon Layouts (GAL)1.png::CompressedTexture2D::4586206212877143572::1684386972::1684386976::1::::<><>::
 HUD - Material Icon Layouts (GAL)2.png::CompressedTexture2D::2125331355177570560::1684386972::1684386976::1::::<><>::
 HUD - Material Icon Layouts (GAL)3.png::CompressedTexture2D::540769160129719428::1684386972::1684386976::1::::<><>::
@@ -212,7 +212,7 @@ Material - Gray.png::CompressedTexture2D::5750774079245727112::1684386972::16843
 Material - Green.png::CompressedTexture2D::928413546292198649::1684386972::1684386975::1::::<><>::
 Material - Red.png::CompressedTexture2D::4302024571713896011::1684386972::1684386975::1::::<><>::
 Material - Yellow.png::CompressedTexture2D::7932439753223950969::1684386972::1684386975::1::::<><>::
-::res://assets/Weapons/::1684386975
+::res://assets/Weapons/::1684832863
 Bee (Bullet).png::CompressedTexture2D::1176274717723467342::1684386973::1684386975::1::::<><>::
 Bubble Blast (Bullet).png::CompressedTexture2D::5855576031506303547::1684386973::1684386975::1::::<><>::
 Grenade (Bullet).png::CompressedTexture2D::1442064201073601988::1684386974::1684386975::1::::<><>::
@@ -232,52 +232,52 @@ Weapon - Shot Gun (ICON).png::CompressedTexture2D::7155462587138638564::16843869
 Weapon - Shot Gun.png::CompressedTexture2D::3704162527237089061::1684386974::1684386975::1::::<><>::
 Weapon - Soccer Ball.png::CompressedTexture2D::2453710438648746679::1684386974::1684386975::1::::<><>::
 Weapon - Sword.png::CompressedTexture2D::7933305900222686815::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/360 Bullet Hell/::1684386975
+::res://assets/Weapons/360 Bullet Hell/::1684832863
 360 Bullet Hell (Bullet).png::CompressedTexture2D::672955720235562227::1684386973::1684386975::1::::<><>::
-::res://assets/Weapons/Bouncer Bullet/::1684386975
+::res://assets/Weapons/Bouncer Bullet/::1684832863
 Weapon - Machine Gun (V2).png::CompressedTexture2D::7027611359173885825::1684386973::1684386975::1::::<><>::
-::res://assets/Weapons/Cursors/::1684386975
+::res://assets/Weapons/Cursors/::1684832863
 Weapon - Weapon Reticle (GAL)1.png::CompressedTexture2D::3372611802582171405::1684386973::1684386975::1::::<><>::
 Weapon - Weapon Reticle (GAL)2.png::CompressedTexture2D::4899532360843851015::1684386973::1684386975::1::::<><>::
 Weapon - Weapon Reticle (GAL)3.png::CompressedTexture2D::8920352538450667991::1684386973::1684386975::1::::<><>::
 Weapon - Weapon Reticle (GAL)4.png::CompressedTexture2D::4470054759387713157::1684386973::1684386975::1::::<><>::
 Weapon - Weapon Reticle (GAL)5.png::CompressedTexture2D::4096683813842144493::1684386974::1684386975::1::::<><>::
 Weapon - Weapon Reticle (GAL)6.png::CompressedTexture2D::3483307311620229796::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Explosion/::1684386974
-::res://assets/Weapons/Follower - Bullet/::1684386975
+::res://assets/Weapons/Explosion/::1684832863
+::res://assets/Weapons/Follower - Bullet/::1684832863
 Follower (Bullet).png::CompressedTexture2D::7804783936813972077::1684386974::1684386975::1::::<><>::
 Follower (Projectile Bullet).png::CompressedTexture2D::587285969380441025::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Follower - Expander/::1684386975
+::res://assets/Weapons/Follower - Expander/::1684832863
 Follower (Expander).png::CompressedTexture2D::8941219475983317713::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Follower - Laser/::1684386975
+::res://assets/Weapons/Follower - Laser/::1684832863
 Follower (Laser).png::CompressedTexture2D::6965626265690035195::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Homing Missile/::1684386975
+::res://assets/Weapons/Homing Missile/::1684832863
 Weapon - Explosive [OLD].png::CompressedTexture2D::9134955634429782249::1684386974::1684386975::1::::<><>::
 Weapon - Homing Missile Gun.png::CompressedTexture2D::403901197583957818::1684386974::1684386975::1::::<><>::
 Weapon - Homing Missile.png::CompressedTexture2D::4353205807994496139::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Pistols/::1684678775
+::res://assets/Weapons/Pistols/::1684832863
 Weapon - Pistol 1 (Gray).png::CompressedTexture2D::5142644248630214096::1684678773::1684678775::1::::<><>::
 Weapon - Pistol 2 (Red).png::CompressedTexture2D::7409035199576143527::1684386974::1684386975::1::::<><>::
 Weapon - Pistol 3 (Green).png::CompressedTexture2D::2459619780214617956::1684386974::1684386975::1::::<><>::
 Weapon - Pistol 4 (Blue).png::CompressedTexture2D::5339444748794406037::1684386974::1684386975::1::::<><>::
 Weapon - Pistol 5 (Yellow).png::CompressedTexture2D::7057170708676950610::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Rainbow Laser Gun/::1684386975
+::res://assets/Weapons/Rainbow Laser Gun/::1684832863
 Laser References.png::CompressedTexture2D::559176534516775429::1684386974::1684386975::1::::<><>::
 Weapon - Laser Gun.png::CompressedTexture2D::5362411318565379032::1684386974::1684386975::1::::<><>::
 Weapon - Machine Gun.png::CompressedTexture2D::1156673316940078781::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/RPG Hero/::1684386975
+::res://assets/Weapons/RPG Hero/::1684832863
 Weapon - RPG Hero.png::CompressedTexture2D::8532111941960518211::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Turret/::1684386975
+::res://assets/Weapons/Turret/::1684832863
 Weapon - Turret (V2).png::CompressedTexture2D::4847068252820631176::1684386974::1684386975::1::::<><>::
 Weapon - Turret (V3).png::CompressedTexture2D::2160215993814549600::1684386974::1684386975::1::::<><>::
 Weapon - Turret.png::CompressedTexture2D::5973534396989739087::1684386974::1684386975::1::::<><>::
-::res://reso/::1684625806
-::res://reso/data/::1684679186
+::res://reso/::1684832863
+::res://reso/data/::1684832863
 ::res://reso/data/anims/::1684679181
 ::res://reso/data/icons/::1684625811
-::res://scenes/::1684680516
+::res://scenes/::1684833766
 World.gd::GDScript::-1::1684672331::0::1::::<>Node2D<>::
-World.tscn::PackedScene::5135273808706151712::1684680516::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://cxbu0avkog8et
-::res://scripts/::1684624142
-::res://scripts/globals/::1684672425
-ManagerGame.gd::GDScript::-1::1684672425::0::1::::<>Node<>::
+World.tscn::PackedScene::5135273808706151712::1684833766::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://cxbu0avkog8et
+::res://scripts/::1684832863
+::res://scripts/globals/::1684832863
+ManagerGame.gd::GDScript::-1::1684803123::0::1::::<>Node<>::
