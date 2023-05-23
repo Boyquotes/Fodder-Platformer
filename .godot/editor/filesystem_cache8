@@ -1,20 +1,24 @@
 2a60927148abd1d33b818b535e306557
-::res://::1684833623
+::res://::1684841326
 icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
-::res://actors/::1684832862
-::res://actors/entities/::1684833766
-Player.gd::GDScript::-1::1684803299::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::5181372897157771706::1684833766::0::1::::<><>::res://actors/entities/Player.gd<>uid://xiya0n4hdol5
-::res://actors/objs/::1684833766
+::res://actors/::1684833832
+::res://actors/entities/::1684841485
+Player.gd::GDScript::-1::1684834961::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::5181372897157771706::1684841485::0::1::::<><>::res://actors/entities/Player.gd<>uid://xiya0n4hdol5<>uid://c03ly2km4rdte
+Boss.tscn::PackedScene::5691894371714821210::1684841485::0::1::::<><>::uid://bouuejkk45l3i
+::res://actors/etc/::1684833908
+WeaponDurationTimer.gd::GDScript::-1::1684833908::0::1::::<>Timer<>::
+WeaponDurationTimer.tscn::PackedScene::4870035605126853831::1684833874::0::1::::<><>::res://actors/etc/WeaponDurationTimer.gd
+::res://actors/objs/::1684841485
 Item.gd::GDScript::-1::1684671692::0::1::::<>RigidBody2D<>::
-Item.tscn::PackedScene::5875275967392656849::1684833766::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
-::res://actors/weapons/::1684833767
-Weapon_RedRed.gd::GDScript::-1::1684680516::0::1::::<>Node2D<>::
-Weapon_RedRed.tscn::PackedScene::6586077215587983214::1684833766::0::1::::<><>::res://actors/weapons/Weapon_RedRed.gd<>uid://cfjeum62qwgg3
+Item.tscn::PackedScene::5875275967392656849::1684841485::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
+::res://actors/weapons/::1684841570
+Weapon_RedRed.gd::GDScript::-1::1684835592::0::1::::<>Node2D<>::
+Weapon_RedRed.tscn::PackedScene::6586077215587983214::1684841570::0::1::::<><>::res://actors/weapons/Weapon_RedRed.gd<>uid://cbnc1l1qr84q2<>uid://cfjeum62qwgg3
 ::res://assets/::1684832863
 ::res://assets/BG/::1684832862
 Pluto - Stage BG (BIG).png::CompressedTexture2D::965961321136687962::1684386971::1684386976::1::::<><>::
-Pluto - Stage BG.png::CompressedTexture2D::7099967893144078661::1684386971::1684386976::1::::<><>::
+Pluto - Stage BG.png::CompressedTexture2D::7099967893144078661::1684841661::1684841663::1::::<><>::
 ::res://assets/Boss/::1684832862
 ::res://assets/Boss/Boss Animations/::1684832862
 Time Reaper - V3 - ALL Animations (GAL)1.png::CompressedTexture2D::6998206619946162660::1684386971::1684386976::1::::<><>::
@@ -275,9 +279,9 @@ Weapon - Turret.png::CompressedTexture2D::5973534396989739087::1684386974::16843
 ::res://reso/data/::1684832863
 ::res://reso/data/anims/::1684679181
 ::res://reso/data/icons/::1684625811
-::res://scenes/::1684833766
+::res://scenes/::1684841613
 World.gd::GDScript::-1::1684672331::0::1::::<>Node2D<>::
-World.tscn::PackedScene::5135273808706151712::1684833766::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://cxbu0avkog8et
+World.tscn::PackedScene::5135273808706151712::1684841613::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://cndgw0a24gk7s
 ::res://scripts/::1684832863
 ::res://scripts/globals/::1684832863
 ManagerGame.gd::GDScript::-1::1684803123::0::1::::<>Node<>::

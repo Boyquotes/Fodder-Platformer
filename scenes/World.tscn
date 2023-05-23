@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scenes/World.gd" id="1_ggqie"]
 [ext_resource type="Texture2D" uid="uid://c8fjo0tj4f542" path="res://assets/BG/Pluto - Stage BG.png" id="1_ti0uo"]
 [ext_resource type="PackedScene" uid="uid://cf25ppr6hlmmk" path="res://actors/entities/Player.tscn" id="2_mogo8"]
-[ext_resource type="Texture2D" uid="uid://cxbu0avkog8et" path="res://assets/Boss/Boss Animations/Time Reaper - V3 - ALL Animations (GAL)32.png" id="3_uuakm"]
+[ext_resource type="PackedScene" uid="uid://cndgw0a24gk7s" path="res://actors/entities/Boss.tscn" id="4_nfd8j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4v4fw"]
 size = Vector2(644, 20)
@@ -18,12 +18,11 @@ texture = ExtResource("1_ti0uo")
 
 [node name="Sort" type="Node2D" parent="."]
 
-[node name="TimeReaper-V3-AllAnimations(gal)32" type="Sprite2D" parent="Sort"]
-position = Vector2(289, 61)
-texture = ExtResource("3_uuakm")
-
 [node name="Player" parent="Sort" instance=ExtResource("2_mogo8")]
 position = Vector2(92, 54)
+
+[node name="Boss" parent="Sort" instance=ExtResource("4_nfd8j")]
+position = Vector2(340, 76)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(235, 242)

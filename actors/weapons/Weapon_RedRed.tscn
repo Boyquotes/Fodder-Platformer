@@ -12,15 +12,14 @@ wait_time = 99.0
 
 [node name="Node2D" type="Node2D" parent="."]
 
-[node name="Sprite2D" type="Sprite2D" parent="Node2D"]
+[node name="Gun1" type="Sprite2D" parent="Node2D"]
 unique_name_in_owner = true
-position = Vector2(0, -1)
 texture = ExtResource("2_oqm6k")
 offset = Vector2(14, 0)
 
-[node name="Sprite2D2" type="Sprite2D" parent="Node2D"]
+[node name="Gun2" type="Sprite2D" parent="Node2D"]
 unique_name_in_owner = true
 z_index = -1
-position = Vector2(6, 1)
+position = Vector2(8, 1)
 texture = ExtResource("2_oqm6k")
 offset = Vector2(14, 0)
