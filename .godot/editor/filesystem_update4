@@ -4,3 +4,5 @@ res://actors/objs/Item.tscn
 res://actors/weapons/Weapon_RedRed.tscn
 res://actors/entities/Boss.tscn
 res://actors/entities/Player.gd
+res://scenes/UI.tscn
+res://scripts/globals/ManagerGame.gd

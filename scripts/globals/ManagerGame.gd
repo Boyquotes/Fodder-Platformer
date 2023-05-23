@@ -1,5 +1,15 @@
 extends Node
 
+# pistol
+# shotgun
+# machine gun
+# rocketlauncher
+# homing missile
+# bomerang
+# bubble attack
+# axe
+# soccerball
+
 
 signal item_picked(number)
 signal weapon_produced(weapon_name)
