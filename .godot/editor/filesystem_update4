@@ -22,3 +22,6 @@ res://actors/objs/components/Weapon_RedRed_Shooting.tscn
 res://actors/objs/components/Weapon_RedRed_Shooting.gd
 res://scenes/World.gd
 res://actors/objs/Bullet.gd
+res://actors/weapons/Weapon_RedGreen.tscn
+res://actors/weapons/Weapon_RedGreen.gd
+res://reso/data/icons/weapon_redgreen.tres

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://d4icspeudctxa"]
+
+[ext_resource type="Script" path="res://actors/weapons/Weapon_RedGreen.gd" id="1_5p37x"]
+[ext_resource type="Texture2D" uid="uid://bs1lascwr5246" path="res://assets/Weapons/Weapon - Shot Gun.png" id="2_jq3g6"]
+[ext_resource type="PackedScene" uid="uid://cbnc1l1qr84q2" path="res://actors/etc/WeaponDurationTimer.tscn" id="2_yj7nj"]
+
+[node name="Weapon_RedGreen" type="Node2D"]
+script = ExtResource("1_5p37x")
+
+[node name="WeaponDurationTimer" parent="." instance=ExtResource("2_yj7nj")]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Gun1" type="Sprite2D" parent="Node2D"]
+unique_name_in_owner = true
+texture = ExtResource("2_jq3g6")
+offset = Vector2(14, 0)

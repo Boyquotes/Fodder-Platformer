@@ -65,6 +65,8 @@ func _physics_process(delta):
 
 
 func give_weapon(weapon_name: String):
+	remove_weapon()
+	
 	ManagerGame.global_mat_slots[0].on_item_picked('')
 	ManagerGame.global_mat_slots[1].on_item_picked('')
 	
@@ -89,7 +91,8 @@ func give_weapon(weapon_name: String):
 func remove_weapon():
 	has_weapon = false
 	
-	aim.get_child(0).queue_free()
+	if aim.get_child_count() > 0:
+		aim.get_child(0).queue_free()
 
 
 
