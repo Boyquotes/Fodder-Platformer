@@ -28,3 +28,7 @@ res://reso/data/icons/weapon_redgreen.tres
 res://actors/weapons/Weapon_RedBlue.tscn
 res://actors/weapons/Weapon_RedBlue.gd
 res://reso/data/icons/weapon_redblue.tres
+res://actors/weapons/Weapon_GreenRed.tscn
+res://actors/weapons/Weapon_GreenRed.gd
+res://actors/objs/Rocket.tscn
+res://reso/data/icons/weapon_greenred.tres

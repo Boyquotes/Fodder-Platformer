@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1jcwc4s2n00n"]
+
+[ext_resource type="Script" path="res://actors/weapons/Weapon_GreenRed.gd" id="1_fsxpl"]
+[ext_resource type="PackedScene" uid="uid://cbnc1l1qr84q2" path="res://actors/etc/WeaponDurationTimer.tscn" id="2_ukwu5"]
+[ext_resource type="Texture2D" uid="uid://cinuepng13vhw" path="res://assets/Weapons/Rainbow Laser Gun/Weapon - Laser Gun.png" id="3_tdxsd"]
+
+[node name="Weapon_GreenRed" type="Node2D"]
+script = ExtResource("1_fsxpl")
+
+[node name="WeaponDurationTimer" parent="." instance=ExtResource("2_ukwu5")]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Gun1" type="Sprite2D" parent="Node2D"]
+unique_name_in_owner = true
+texture = ExtResource("3_tdxsd")
+offset = Vector2(14, 0)
