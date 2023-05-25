@@ -12,4 +12,4 @@ func display(weapon_name: String):
 	texture = load("res://reso/data/icons/%s.tres" % weapon_name)
 
 func on_weapon_expired():
-	texture = null
+	texture = load("res://assets/UI/Item - UI Box (9-Slice).png")
