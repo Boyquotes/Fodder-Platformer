@@ -8,6 +8,11 @@ extends Node2D
 
 
 
+func spawn_bullet(amount: int = 1):
+	var b = load("res://actors/objs/Bullet.tscn").instantiate()
+	
+	sort.add_child(b)
+
 
 func _on_material_drop_timer_timeout():
 	randomize()

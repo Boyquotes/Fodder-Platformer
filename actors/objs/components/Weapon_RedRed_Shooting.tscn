@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqaqq1ku3l2ko"]
+
+[ext_resource type="Script" path="res://actors/objs/components/Weapon_RedRed_Shooting.gd" id="1_gikdt"]
+
+[node name="Weapon_RedRed_Shooting" type="Node"]
+script = ExtResource("1_gikdt")

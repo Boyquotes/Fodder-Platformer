@@ -2,6 +2,10 @@ extends Node2D
 
 
 
+func _process(delta):
+	pass
+
+
 func _physics_process(delta):
 	var dir = global_position.direction_to(get_global_mouse_position())
 	if dir.x < -0.5:

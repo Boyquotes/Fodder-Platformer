@@ -1,6 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://cf25ppr6hlmmk"]
+[gd_scene load_steps=12 format=3 uid="uid://cf25ppr6hlmmk"]
 
 [ext_resource type="Script" path="res://actors/entities/Player.gd" id="1_52sel"]
+[ext_resource type="PackedScene" uid="uid://bb0ejat1va2p6" path="res://actors/objs/components/Hurtbox.tscn" id="2_7q8e2"]
 [ext_resource type="Texture2D" uid="uid://xiya0n4hdol5" path="res://assets/Player Animations/Player - Spritesheet.png" id="2_8ah8e"]
 
 [sub_resource type="Animation" id="Animation_wkimc"]
@@ -106,6 +107,10 @@ _data = {
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
 script = ExtResource("1_52sel")
+
+[node name="Hurtbox" parent="." instance=ExtResource("2_7q8e2")]
+collision_layer = 32
+collision_mask = 0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

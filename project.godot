@@ -70,6 +70,7 @@ shoot={
 2d_physics/layer_4="PlayerDetect"
 2d_physics/layer_5="EnemyHurtBox"
 2d_physics/layer_6="PlayerHurtBox"
+2d_physics/layer_7="BulletArea"
 
 [rendering]
 

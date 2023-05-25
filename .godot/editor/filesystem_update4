@@ -17,3 +17,8 @@ res://scripts/globals/ManagerGame.gd
 res://actors/objs/Bullet.tscn
 res://actors/objs/components/Hurtbox.tscn
 res://actors/objs/components/Hurtbox.gd
+res://actors/weapons/Weapon_RedRed.gd
+res://actors/objs/components/Weapon_RedRed_Shooting.tscn
+res://actors/objs/components/Weapon_RedRed_Shooting.gd
+res://scenes/World.gd
+res://actors/objs/Bullet.gd
