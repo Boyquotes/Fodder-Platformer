@@ -65,9 +65,14 @@ func _physics_process(delta):
 
 
 func give_weapon(weapon_name: String):
+	ManagerGame.global_mat_slots[0].on_item_picked('')
+	ManagerGame.global_mat_slots[1].on_item_picked('')
+	
 	if ResourceLoader.exists("res://actors/weapons/%s.tscn" % weapon_name) == false:
 		print_debug('weapon does not exists')
 		return
+	
+	ManagerGame.global_weapon_slot.display(weapon_name)
 	
 	has_weapon = true
 	

@@ -1,3 +1,5 @@
+CollisionShape2D
+Area2D
 Sprite2D
 TextureRect
 Panel
@@ -6,8 +8,6 @@ AnimationPlayer
 Timer
 Node2D
 AnimatedSprite2D
-CollisionShape2D
-Area2D
 RigidBody2D
 StaticBody2D
 CharacterBody2D

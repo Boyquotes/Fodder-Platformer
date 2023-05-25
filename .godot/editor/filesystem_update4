@@ -10,3 +10,9 @@ res://actors/ui/MaterialSlot.tscn
 res://actors/etc/WeaponDurationTimer.tscn
 res://actors/etc/Cursor.tscn
 res://actors/etc/Cursor.gd
+res://actors/entities/Player.gd
+res://reso/data/icons/material_blue.tres
+res://reso/data/icons/redred.tres
+res://scripts/globals/ManagerGame.gd
+res://actors/objs/Bullet.tscn
+res://actors/objs/components/Hurtbox.tscn
