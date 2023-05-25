@@ -25,3 +25,6 @@ res://actors/objs/Bullet.gd
 res://actors/weapons/Weapon_RedGreen.tscn
 res://actors/weapons/Weapon_RedGreen.gd
 res://reso/data/icons/weapon_redgreen.tres
+res://actors/weapons/Weapon_RedBlue.tscn
+res://actors/weapons/Weapon_RedBlue.gd
+res://reso/data/icons/weapon_redblue.tres
