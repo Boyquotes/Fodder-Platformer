@@ -5,11 +5,15 @@ extends Node2D
 @onready var drop_spawn = $DropSpawn.global_position
 
 
+func _ready():
+	ManagerGame.global_world_ref = self
 
 
-
-func spawn_bullet(amount: int = 1):
+func spawn_bullet(amount: int = 1, spawn_pos: Vector2 = Vector2.ZERO, speed = 400.0):
 	var b = load("res://actors/objs/Bullet.tscn").instantiate()
+	b.global_position = spawn_pos
+	b.speed = speed
+	b.dir = b.global_position.direction_to(get_global_mouse_position())
 	
 	sort.add_child(b)
 

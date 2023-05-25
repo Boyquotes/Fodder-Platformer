@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" path="res://actors/objs/components/Weapon_RedRed_Shooting.gd" id="1_gikdt"]
 
-[node name="Weapon_RedRed_Shooting" type="Node"]
+[node name="Weapon_RedRed_Shooting" type="Node2D"]
 script = ExtResource("1_gikdt")

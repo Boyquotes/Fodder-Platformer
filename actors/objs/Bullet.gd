@@ -2,7 +2,7 @@ extends Node2D
 
 
 var dir
-var speed = 300.0
+var speed = 400.0
 
 func _physics_process(delta):
 	global_position += dir * speed * delta

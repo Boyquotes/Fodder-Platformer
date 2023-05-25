@@ -15,4 +15,4 @@ func _physics_process(delta):
 		get_node('%Gun1').flip_v = false
 		get_node('%Gun2').flip_v = false
 	
-	$Node2D.look_at(get_global_mouse_position())
+	self.look_at(get_global_mouse_position())
