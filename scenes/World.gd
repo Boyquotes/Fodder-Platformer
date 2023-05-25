@@ -16,8 +16,8 @@ func spawn_bullet(amount: int = 1, spawn_pos: Vector2 = Vector2.ZERO, speed = 40
 		b.speed = speed
 		
 		var m_pos = get_global_mouse_position()
-		var rand_x = randf_range(m_pos.x - 64, m_pos.x + 64)
-		var rand_y = randf_range(m_pos.y - 64, m_pos.y + 64)
+		var rand_x = randf_range(m_pos.x - 32, m_pos.x + 32)
+		var rand_y = randf_range(m_pos.y - 32, m_pos.y + 32)
 		
 		b.dir = b.global_position.direction_to(Vector2(rand_x, rand_y))
 		
