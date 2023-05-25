@@ -10,7 +10,7 @@ var has_weapon = false
 
 @onready var player_detect = $PlayerDetect
 @onready var aim = get_node('%Aim')
-@onready var anim = $AnimationPlayer
+@onready var anim = $Anim
 @onready var sprite = $Sprite2D
 
 

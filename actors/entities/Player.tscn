@@ -111,8 +111,9 @@ script = ExtResource("1_52sel")
 [node name="Hurtbox" parent="." instance=ExtResource("2_7q8e2")]
 collision_layer = 32
 collision_mask = 0
+monitorable = false
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="Anim" type="AnimationPlayer" parent="."]
 libraries = {
 "": SubResource("AnimationLibrary_orort")
 }
