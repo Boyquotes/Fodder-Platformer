@@ -16,3 +16,4 @@ res://reso/data/icons/redred.tres
 res://scripts/globals/ManagerGame.gd
 res://actors/objs/Bullet.tscn
 res://actors/objs/components/Hurtbox.tscn
+res://actors/objs/components/Hurtbox.gd
