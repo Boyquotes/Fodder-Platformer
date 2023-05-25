@@ -1,11 +1,12 @@
+res://scenes/UI.tscn
+res://actors/ui/WeaponSlot.tscn
+res://actors/ui/WeaponSlot.gd
 res://scenes/World.tscn
 res://actors/entities/Player.tscn
 res://actors/objs/Item.tscn
 res://actors/weapons/Weapon_RedRed.tscn
 res://actors/entities/Boss.tscn
-res://scenes/UI.tscn
 res://actors/ui/MaterialSlot.tscn
-res://actors/ui/WeaponSlot.tscn
 res://actors/etc/WeaponDurationTimer.tscn
-res://actors/etc/WeaponDurationTimer.gd
-res://scripts/globals/ManagerGame.gd
+res://actors/etc/Cursor.tscn
+res://actors/etc/Cursor.gd

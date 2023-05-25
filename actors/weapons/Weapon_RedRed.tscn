@@ -8,7 +8,6 @@
 script = ExtResource("1_agko6")
 
 [node name="WeaponDurationTimer" parent="." instance=ExtResource("2_jbsbx")]
-wait_time = 99.0
 
 [node name="Node2D" type="Node2D" parent="."]
 

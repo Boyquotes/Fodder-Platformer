@@ -2,24 +2,25 @@
 ::res://::1684993605
 icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
 ::res://actors/::1684844480
-::res://actors/entities/::1684919661
-Boss.tscn::PackedScene::5691894371714821210::1684919661::0::1::::<><>::uid://bouuejkk45l3i
+::res://actors/entities/::1684993880
+Boss.tscn::PackedScene::5691894371714821210::1684993880::0::1::::<><>::uid://bouuejkk45l3i
 Player.gd::GDScript::-1::1684841907::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::5181372897157771706::1684919661::0::1::::<><>::res://actors/entities/Player.gd<>uid://xiya0n4hdol5
-::res://actors/etc/::1684919718
+Player.tscn::PackedScene::5181372897157771706::1684993880::0::1::::<><>::res://actors/entities/Player.gd<>uid://xiya0n4hdol5
+::res://actors/etc/::1684993943
+Cursor.tscn::PackedScene::5633111244673886208::1684993943::0::1::::<><>::uid://bobyony5ov8u0
 WeaponDurationTimer.gd::GDScript::-1::1684919704::0::1::::<>Timer<>::
-WeaponDurationTimer.tscn::PackedScene::4870035605126853831::1684919718::0::1::::<><>::res://actors/etc/WeaponDurationTimer.gd
-::res://actors/objs/::1684919661
+WeaponDurationTimer.tscn::PackedScene::4870035605126853831::1684993880::0::1::::<><>::res://actors/etc/WeaponDurationTimer.gd
+::res://actors/objs/::1684993880
 Item.gd::GDScript::-1::1684671692::0::1::::<>RigidBody2D<>::
-Item.tscn::PackedScene::5875275967392656849::1684919661::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
-::res://actors/ui/::1684919661
+Item.tscn::PackedScene::5875275967392656849::1684993880::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
+::res://actors/ui/::1684993880
 MaterialSlot.gd::GDScript::-1::1684846211::0::1::::<>Panel<>::
-MaterialSlot.tscn::PackedScene::7161902023128208446::1684919661::0::1::::<><>::res://actors/ui/MaterialSlot.gd
-WeaponSlot.gd::GDScript::-1::1684846429::0::1::::<>TextureRect<>::
-WeaponSlot.tscn::PackedScene::2198690613185976220::1684919661::0::1::::<><>::uid://1vwhvxkwglaa<>res://actors/ui/WeaponSlot.gd
-::res://actors/weapons/::1684919661
+MaterialSlot.tscn::PackedScene::7161902023128208446::1684993880::0::1::::<><>::res://actors/ui/MaterialSlot.gd
+WeaponSlot.gd::GDScript::-1::1684993652::0::1::::<>TextureRect<>::
+WeaponSlot.tscn::PackedScene::2198690613185976220::1684993880::0::1::::<><>::uid://1vwhvxkwglaa<>res://actors/ui/WeaponSlot.gd
+::res://actors/weapons/::1684993915
 Weapon_RedRed.gd::GDScript::-1::1684841837::0::1::::<>Node2D<>::
-Weapon_RedRed.tscn::PackedScene::6586077215587983214::1684919661::0::1::::<><>::res://actors/weapons/Weapon_RedRed.gd<>uid://cbnc1l1qr84q2<>uid://cfjeum62qwgg3
+Weapon_RedRed.tscn::PackedScene::6586077215587983214::1684993915::0::1::::<><>::res://actors/weapons/Weapon_RedRed.gd<>uid://cbnc1l1qr84q2<>uid://cfjeum62qwgg3
 ::res://assets/::1684832863
 ::res://assets/BG/::1684841663
 Pluto - Stage BG (BIG).png::CompressedTexture2D::965961321136687962::1684386971::1684386976::1::::<><>::
@@ -246,7 +247,7 @@ Weapon - Sword.png::CompressedTexture2D::7933305900222686815::1684386974::168438
 ::res://assets/Weapons/Bouncer Bullet/::1684832863
 Weapon - Machine Gun (V2).png::CompressedTexture2D::7027611359173885825::1684386973::1684386975::1::::<><>::
 ::res://assets/Weapons/Cursors/::1684832863
-Weapon - Weapon Reticle (GAL)1.png::CompressedTexture2D::3372611802582171405::1684386973::1684386975::1::::<><>::
+Weapon - Weapon Reticle (GAL)1.png::CompressedTexture2D::3372611802582171405::1684993992::1684993994::1::::<><>::
 Weapon - Weapon Reticle (GAL)2.png::CompressedTexture2D::4899532360843851015::1684386973::1684386975::1::::<><>::
 Weapon - Weapon Reticle (GAL)3.png::CompressedTexture2D::8920352538450667991::1684386973::1684386975::1::::<><>::
 Weapon - Weapon Reticle (GAL)4.png::CompressedTexture2D::4470054759387713157::1684386973::1684386975::1::::<><>::
@@ -287,11 +288,11 @@ Weapon - Turret.png::CompressedTexture2D::5973534396989739087::1684386974::16843
 material_blue.tres::CanvasTexture::5117830911899092612::1684844969::0::1::::<><>::uid://df8uywrk4k30l
 material_green.tres::CanvasTexture::6912157929966232968::1684844958::0::1::::<><>::uid://b0kx14j71w1hx
 material_red.tres::CanvasTexture::129286756865230821::1684844924::0::1::::<><>::uid://hx7nh0u34aim
-::res://scenes/::1684919685
+::res://scenes/::1684993880
 UI.gd::GDScript::-1::1684846089::0::1::::<>Control<>::
-UI.tscn::PackedScene::8516772727192155131::1684919685::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
+UI.tscn::PackedScene::8516772727192155131::1684993880::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
 World.gd::GDScript::-1::1684672331::0::1::::<>Node2D<>::
-World.tscn::PackedScene::5135273808706151712::1684919661::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
+World.tscn::PackedScene::5135273808706151712::1684993880::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
 ::res://scripts/::1684832863
 ::res://scripts/globals/::1684919717
 ManagerGame.gd::GDScript::-1::1684919717::0::1::::<>Node<>::
