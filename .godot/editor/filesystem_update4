@@ -3,14 +3,9 @@ res://actors/entities/Player.tscn
 res://actors/objs/Item.tscn
 res://actors/weapons/Weapon_RedRed.tscn
 res://actors/entities/Boss.tscn
-res://actors/entities/Player.gd
 res://scenes/UI.tscn
-res://scripts/globals/ManagerGame.gd
 res://actors/ui/MaterialSlot.tscn
 res://actors/ui/WeaponSlot.tscn
-res://actors/ui/MaterialSlot.gd
-res://reso/data/icons/material_red.tres
-res://reso/data/icons/new_canvas_texture.tres
-res://reso/data/icons/material_green.tres
-res://reso/data/icons/material_blue.tres
-res://scenes/UI.gd
+res://actors/etc/WeaponDurationTimer.tscn
+res://actors/etc/WeaponDurationTimer.gd
+res://scripts/globals/ManagerGame.gd

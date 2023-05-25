@@ -1,18 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://6lcd325n3hge"]
+[gd_scene load_steps=3 format=3 uid="uid://6lcd325n3hge"]
 
-[ext_resource type="Texture2D" uid="uid://dyldhqjqiis5h" path="res://assets/UI/Item - UI Box (9-Slice).png" id="1_8my8h"]
+[ext_resource type="Texture2D" uid="uid://1vwhvxkwglaa" path="res://assets/UI/Weapon Icons/HUD - Weapon Icon Layouts (GAL)1.png" id="1_1vr3i"]
 [ext_resource type="Script" path="res://actors/ui/WeaponSlot.gd" id="2_2qlhb"]
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gkkni"]
-texture = ExtResource("1_8my8h")
-texture_margin_left = 9.0
-texture_margin_top = 9.0
-texture_margin_right = 9.0
-texture_margin_bottom = 9.0
-
-[node name="WeaponSlot" type="Panel"]
+[node name="WeaponSlot" type="TextureRect"]
 custom_minimum_size = Vector2(32, 32)
 offset_right = 32.0
 offset_bottom = 32.0
-theme_override_styles/panel = SubResource("StyleBoxTexture_gkkni")
+texture = ExtResource("1_1vr3i")
+expand_mode = 1
+stretch_mode = 5
 script = ExtResource("2_2qlhb")

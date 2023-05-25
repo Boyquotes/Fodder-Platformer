@@ -1,6 +1,6 @@
+TextureRect
 Panel
 CanvasLayer
-TextureRect
 Sprite2D
 AnimationPlayer
 Timer

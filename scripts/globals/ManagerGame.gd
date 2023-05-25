@@ -13,6 +13,7 @@ extends Node
 
 signal item_picked(str)
 signal weapon_produced(weapon_name)
+signal weapon_expired()
 
 
 

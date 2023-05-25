@@ -13,6 +13,17 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_d5451")
 
+[node name="WeaponSlot" parent="." instance=ExtResource("3_dr1f0")]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 7.0
+offset_top = -41.0
+offset_right = 39.0
+offset_bottom = -9.0
+grow_vertical = 0
+
 [node name="MaterialSlot" parent="." instance=ExtResource("2_c0sb2")]
 layout_mode = 1
 anchors_preset = 2
@@ -35,14 +46,3 @@ offset_right = 84.0
 offset_bottom = -9.99998
 grow_vertical = 0
 slot_idx = 1
-
-[node name="WeaponSlot" parent="." instance=ExtResource("3_dr1f0")]
-layout_mode = 1
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_left = 7.0
-offset_top = -41.0
-offset_right = 39.0
-offset_bottom = -9.0
-grow_vertical = 0

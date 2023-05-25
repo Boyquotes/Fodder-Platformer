@@ -1,1 +1,1 @@
-extends Panel
+extends TextureRect
