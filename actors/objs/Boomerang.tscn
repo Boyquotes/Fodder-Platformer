@@ -1,0 +1,73 @@
+[gd_scene load_steps=7 format=3 uid="uid://gnq1jj6jhdx4"]
+
+[ext_resource type="Script" path="res://actors/objs/Boomerang.gd" id="1_la8kj"]
+[ext_resource type="Texture2D" uid="uid://chq8uyw6tyk7y" path="res://assets/Weapons/Weapon - Boomerang (V2.1).png" id="2_uwnc8"]
+
+[sub_resource type="Animation" id="Animation_aok0x"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [3.14159]
+}
+
+[sub_resource type="Animation" id="Animation_lqhgp"]
+resource_name = "rotate"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 3.14159, 6.28319]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0cp3b"]
+_data = {
+"RESET": SubResource("Animation_aok0x"),
+"rotate": SubResource("Animation_lqhgp")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_smvln"]
+radius = 14.0357
+
+[node name="Boomerang" type="Node2D"]
+script = ExtResource("1_la8kj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 3.14159
+texture = ExtResource("2_uwnc8")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "rotate"
+libraries = {
+"": SubResource("AnimationLibrary_0cp3b")
+}
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 64
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_smvln")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[node name="GoBackTimer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
+[connection signal="timeout" from="GoBackTimer" to="." method="_on_go_back_timer_timeout"]

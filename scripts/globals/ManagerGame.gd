@@ -4,7 +4,7 @@ extends Node
 # shotgun --
 # machine gun --
 # rocketlauncher --
-# homing missile
+# homing missile --
 # bomerang
 # bubble attack
 # axe

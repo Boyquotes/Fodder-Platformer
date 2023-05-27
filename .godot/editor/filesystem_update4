@@ -17,3 +17,11 @@ res://actors/weapons/Weapon_GreenGreen.tscn
 res://actors/weapons/Weapon_GreenGreen.gd
 res://actors/objs/Homing.gd
 res://scripts/globals/ManagerGame.gd
+res://actors/weapons/Weapon_GreenBlue.tscn
+res://actors/objs/components/Boomerang.tscn
+res://actors/weapons/Weapon_GreenBlue.gd
+res://scenes/World.gd
+res://actors/objs/components/Boomerang.gd
+res://actors/objs/Boomerang.tscn
+res://actors/objs/Boomerang.gd
+res://actors/objs/Bullet.tscn
