@@ -16,6 +16,7 @@ func spawn_bullet(amount: int = 1, spawn_pos: Vector2 = Vector2.ZERO, speed = 40
 		1: bullet = load("res://actors/objs/Rocket.tscn")
 		2: bullet = load("res://actors/objs/Homing.tscn")
 		3: bullet = load("res://actors/objs/Boomerang.tscn")
+		4: bullet = load("res://actors/objs/Axe.tscn")
 	
 	for i in range(amount):
 		var b = bullet.instantiate()

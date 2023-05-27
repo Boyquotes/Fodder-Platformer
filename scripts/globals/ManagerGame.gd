@@ -5,9 +5,9 @@ extends Node
 # machine gun --
 # rocketlauncher --
 # homing missile --
-# bomerang
+# bomerang -- 
 # bubble attack
-# axe
+# axe --
 # soccerball
 
 
