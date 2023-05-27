@@ -1,22 +1,23 @@
 2a60927148abd1d33b818b535e306557
-::res://::1685161277
+::res://::1685164194
 icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
 ::res://actors/::1684844480
-::res://actors/entities/::1685016452
-Boss.tscn::PackedScene::5691894371714821210::1685016452::0::1::::<><>::uid://bouuejkk45l3i<>uid://bb0ejat1va2p6
+::res://actors/entities/::1685164022
+Boss.tscn::PackedScene::5691894371714821210::1685164022::0::1::::<><>::uid://bouuejkk45l3i<>uid://bb0ejat1va2p6
 Player.gd::GDScript::-1::1685007884::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::5181372897157771706::1685016452::0::1::::<><>::res://actors/entities/Player.gd<>uid://bb0ejat1va2p6<>uid://xiya0n4hdol5
+Player.tscn::PackedScene::5181372897157771706::1685164022::0::1::::<><>::res://actors/entities/Player.gd<>uid://bb0ejat1va2p6<>uid://xiya0n4hdol5
 ::res://actors/etc/::1684994159
 Cursor.gd::GDScript::-1::1684994032::0::1::::<>Node2D<>::
 Cursor.tscn::PackedScene::5633111244673886208::1684994125::0::1::::<><>::uid://bobyony5ov8u0<>res://actors/etc/Cursor.gd
 WeaponDurationTimer.gd::GDScript::-1::1684919704::0::1::::<>Timer<>::
 WeaponDurationTimer.tscn::PackedScene::4870035605126853831::1684994159::0::1::::<><>::res://actors/etc/WeaponDurationTimer.gd
-::res://actors/objs/::1685161438
+::res://actors/objs/::1685164022
 Bullet.gd::GDScript::-1::1685004268::0::1::::<>Node2D<>::
 Bullet.tscn::PackedScene::9038418971457681797::1685005094::0::1::::<><>::res://actors/objs/Bullet.gd<>uid://jt8qnv7c8nn4
-Homing.tscn::PackedScene::8005388316844000817::1685161438::0::1::::<><>::uid://b3aywtf7q5oml
+Homing.gd::GDScript::-1::1685161548::0::1::::<>Node2D<>::
+Homing.tscn::PackedScene::8005388316844000817::1685161548::0::1::::<><>::uid://b3aywtf7q5oml<>res://actors/objs/Homing.gd
 Item.gd::GDScript::-1::1684671692::0::1::::<>RigidBody2D<>::
-Item.tscn::PackedScene::5875275967392656849::1685016452::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
+Item.tscn::PackedScene::5875275967392656849::1685164022::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
 Rocket.tscn::PackedScene::6256418251890460034::1685161412::0::1::::<><>::res://actors/objs/Bullet.gd<>uid://jt8qnv7c8nn4
 ::res://actors/objs/components/::1685016452
 Hurtbox.gd::GDScript::-1::1685005141::0::1::::<>Area2D<>::
@@ -279,7 +280,7 @@ Follower (Projectile Bullet).png::CompressedTexture2D::587285969380441025::16843
 Follower (Expander).png::CompressedTexture2D::8941219475983317713::1684386974::1684386975::1::::<><>::
 ::res://assets/Weapons/Follower - Laser/::1684832863
 Follower (Laser).png::CompressedTexture2D::6965626265690035195::1684386974::1684386975::1::::<><>::
-::res://assets/Weapons/Homing Missile/::1685016264
+::res://assets/Weapons/Homing Missile/::1685161466
 Weapon - Explosive [OLD].png::CompressedTexture2D::9134955634429782249::1684386974::1684386975::1::::<><>::
 Weapon - Homing Missile Gun.png::CompressedTexture2D::403901197583957818::1685016263::1685016264::1::::<><>::
 Weapon - Homing Missile.png::CompressedTexture2D::4353205807994496139::1685161461::1685161466::1::::<><>::
@@ -310,11 +311,11 @@ weapon_greenred.tres::CanvasTexture::6324779888931177421::1685016179::0::1::::<>
 weapon_redblue.tres::CanvasTexture::5100218422150551715::1685015124::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redgreen.tres::CanvasTexture::3680905077144516612::1685007945::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redred.tres::CanvasTexture::5675485340723160132::1684994502::0::1::::<><>::uid://dtyqdvkqj02sj
-::res://scenes/::1685016491
+::res://scenes/::1685164022
 UI.gd::GDScript::-1::1684846089::0::1::::<>Control<>::
-UI.tscn::PackedScene::8516772727192155131::1685016452::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
+UI.tscn::PackedScene::8516772727192155131::1685164022::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
 World.gd::GDScript::-1::1685016491::0::1::::<>Node2D<>::
-World.tscn::PackedScene::5135273808706151712::1685016491::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
+World.tscn::PackedScene::5135273808706151712::1685164022::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
 ::res://scripts/::1684832863
 ::res://scripts/globals/::1685016690
 ManagerGame.gd::GDScript::-1::1685016690::0::1::::<>Node<>::

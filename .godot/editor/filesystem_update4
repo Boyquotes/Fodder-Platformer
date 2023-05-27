@@ -1,8 +1,5 @@
-res://actors/objs/Rocket.tscn
-res://actors/objs/Homing.tscn
-res://actors/objs/Homing.gd
-res://actors/entities/Player.tscn
-res://scenes/World.tscn
-res://actors/objs/Item.tscn
 res://actors/entities/Boss.tscn
+res://scenes/World.tscn
+res://actors/entities/Player.tscn
+res://actors/objs/Item.tscn
 res://scenes/UI.tscn
