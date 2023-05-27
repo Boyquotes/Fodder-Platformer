@@ -23,6 +23,7 @@ var global_player_ref = null
 var global_mat_slots = []
 var global_weapon_slot = null
 var global_world_ref = null
+var global_boss_ref = null
 
 
 func _ready():

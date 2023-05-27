@@ -1,8 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://cf25ppr6hlmmk"]
+[gd_scene load_steps=14 format=3 uid="uid://cf25ppr6hlmmk"]
 
 [ext_resource type="Script" path="res://actors/entities/Player.gd" id="1_52sel"]
 [ext_resource type="PackedScene" uid="uid://bb0ejat1va2p6" path="res://actors/objs/components/Hurtbox.tscn" id="2_7q8e2"]
 [ext_resource type="Texture2D" uid="uid://xiya0n4hdol5" path="res://assets/Player Animations/Player - Spritesheet.png" id="2_8ah8e"]
+[ext_resource type="PackedScene" uid="uid://cq0uldbesxhme" path="res://actors/weapons/Weapon_GreenGreen.tscn" id="4_q4aiw"]
 
 [sub_resource type="Animation" id="Animation_wkimc"]
 length = 0.001
@@ -145,3 +146,5 @@ shape = SubResource("CircleShape2D_bvqkf")
 [node name="Aim" type="Node2D" parent="."]
 unique_name_in_owner = true
 position = Vector2(0, -18)
+
+[node name="Weapon_GreenGreen" parent="Aim" instance=ExtResource("4_q4aiw")]

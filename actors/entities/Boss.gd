@@ -18,6 +18,9 @@ var weapons_list = [
 	"res://actors/weapons/boss_attacks/Boss_Weapon_Sword.tscn",
 ]
 
+func _ready():
+	ManagerGame.global_boss_ref = self
+
 
 func _physics_process(delta):
 	if state == STATE.MOVING:
