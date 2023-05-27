@@ -14,7 +14,8 @@ enum STATE{
 var state = STATE.MOVING
 
 var weapons_list = [
-	"res://actors/weapons/boss_attacks/SkullBurst.tscn"
+	"res://actors/weapons/boss_attacks/Boss_Weapon_SkullBurst.tscn",
+	"res://actors/weapons/boss_attacks/Boss_Weapon_Sword.tscn",
 ]
 
 
@@ -31,6 +32,13 @@ func _physics_process(delta):
 func attack():
 	anim.play("attack_1")
 	hand_anim.play("attack_1")
+	
+	var rand = randi() % weapons_list.size()
+	var w = load(weapons_list[1]).instantiate()
+	
+	add_child(w)
+	
+	state = STATE.MOVING
 
 
 func _on_state_timer_timeout():

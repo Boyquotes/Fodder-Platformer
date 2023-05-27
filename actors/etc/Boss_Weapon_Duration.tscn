@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://6gqd6p63k26b"]
+
+[ext_resource type="Script" path="res://actors/etc/boss_weapon_duration.gd" id="1_kxvom"]
+
+[node name="BossWeaponDuration" type="Timer"]
+wait_time = 5.0
+autostart = true
+script = ExtResource("1_kxvom")
+
+[connection signal="timeout" from="." to="." method="_on_timeout"]

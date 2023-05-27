@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://1ku3dr67ff23"]
+
+[ext_resource type="Script" path="res://actors/weapons/boss_attacks/Boss_Weapon_Sword.gd" id="1_occsa"]
+[ext_resource type="PackedScene" uid="uid://6gqd6p63k26b" path="res://actors/etc/Boss_Weapon_Duration.tscn" id="2_ru1gv"]
+
+[node name="WeaponSword" type="Node2D"]
+script = ExtResource("1_occsa")
+
+[node name="BossWeaponDuration" parent="." instance=ExtResource("2_ru1gv")]
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
