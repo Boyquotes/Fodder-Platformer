@@ -34,11 +34,15 @@ func attack():
 	hand_anim.play("attack_1")
 	
 	var rand = randi() % weapons_list.size()
-	var w = load(weapons_list[0]).instantiate()
+	var w = load(weapons_list[rand]).instantiate()
 	
 	add_child(w)
 	
 	state = STATE.MOVING
+	await anim.animation_finished
+	
+	anim.play("idle")
+	hand_anim.play("idle")
 
 
 func _on_state_timer_timeout():

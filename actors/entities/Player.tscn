@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cf25ppr6hlmmk"]
+[gd_scene load_steps=13 format=3 uid="uid://cf25ppr6hlmmk"]
 
 [ext_resource type="Script" path="res://actors/entities/Player.gd" id="1_52sel"]
 [ext_resource type="PackedScene" uid="uid://bb0ejat1va2p6" path="res://actors/objs/components/Hurtbox.tscn" id="2_7q8e2"]
@@ -91,9 +91,13 @@ tracks/0/keys = {
 "values": [12, 13, 14, 15, 16, 17]
 }
 
+[sub_resource type="Animation" id="Animation_a3d7o"]
+resource_name = "hit"
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_orort"]
 _data = {
 "RESET": SubResource("Animation_wkimc"),
+"hit": SubResource("Animation_a3d7o"),
 "idle": SubResource("Animation_yi46n"),
 "idle_h": SubResource("Animation_krdp8"),
 "run": SubResource("Animation_jtm25"),

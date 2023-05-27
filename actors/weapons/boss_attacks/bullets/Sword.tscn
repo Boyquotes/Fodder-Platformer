@@ -1,24 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://d3rfp4v1mlsmc"]
+[gd_scene load_steps=8 format=3 uid="uid://d3rfp4v1mlsmc"]
 
 [ext_resource type="Texture2D" uid="uid://bjxsxvtiij5cv" path="res://assets/Boss/Boss Weapons/Boss Weapon - Spawn Blood Sword (GAL)1-sheet.png" id="1_e86uw"]
 [ext_resource type="Script" path="res://actors/weapons/boss_attacks/bullets/Sword.gd" id="1_ww6jt"]
-
-[sub_resource type="Animation" id="Animation_h0w4v"]
-resource_name = "lit"
-length = 0.6
-step = 0.0667
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.0667, 0.1334, 0.2001, 0.2668, 0.3335, 0.4002, 0.4669, 0.5336),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
-}
 
 [sub_resource type="Animation" id="Animation_kh3aw"]
 length = 0.001
@@ -47,6 +30,23 @@ tracks/1/keys = {
 "values": [0.0]
 }
 
+[sub_resource type="Animation" id="Animation_h0w4v"]
+resource_name = "lit"
+length = 0.6
+step = 0.0667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0667, 0.1334, 0.2001, 0.2668, 0.3335, 0.4002, 0.4669, 0.5336),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+}
+
 [sub_resource type="Animation" id="Animation_ubv3l"]
 resource_name = "swing"
 length = 0.6
@@ -70,6 +70,10 @@ _data = {
 "swing": SubResource("Animation_ubv3l")
 }
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ylkhj"]
+radius = 7.0
+height = 62.0
+
 [node name="Sword" type="Node2D"]
 script = ExtResource("1_ww6jt")
 
@@ -83,5 +87,14 @@ autoplay = "lit"
 libraries = {
 "": SubResource("AnimationLibrary_xdn5i")
 }
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 128
+collision_mask = 32
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -34)
+shape = SubResource("CapsuleShape2D_ylkhj")
 
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
