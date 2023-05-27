@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cfftheasvhniu"]
+[gd_scene load_steps=8 format=3 uid="uid://cfftheasvhniu"]
 
 [ext_resource type="Script" path="res://scenes/World.gd" id="1_ggqie"]
 [ext_resource type="Texture2D" uid="uid://c8fjo0tj4f542" path="res://assets/BG/Pluto - Stage BG.png" id="1_ti0uo"]
@@ -8,6 +8,12 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4v4fw"]
 size = Vector2(644, 20)
+
+[sub_resource type="Curve2D" id="Curve2D_7cb3o"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 117, 15, 0, 0, 0, 0, 187, 39, 0, 0, 0, 0, 227, 67, 0, 0, 0, 0, 256, 104, 0, 0, 0, 0, 290, 144, 0, 0, 0, 0, 360, 156, 0, 0, 0, 0, 428, 146, 0, 0, 0, 0, 463, 97, 0, 0, 0, 0, 455, 50, 0, 0, 0, 0, 428, 24, 0, 0, 0, 0, 370, 15, 0, 0, 0, 0, 312, 29, 0, 0, 0, 0, 269, 60, 0, 0, 0, 0, 226, 123, 0, 0, 0, 0, 190, 142, 0, 0, 0, 0, 146, 156, 0, 0, 0, 0, 86, 151, 0, 0, 0, 0, 24, 129, 0, 0, 0, 0, 11, 96, 0, 0, 0, 0, 9, 64, 0, 0, 0, 0, 28, 31, 0, 0, 0, 0, 67, 7, 0, 0, 0, 0, 117, 15)
+}
+point_count = 23
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_ggqie")
@@ -33,14 +39,23 @@ texture = ExtResource("1_ti0uo")
 [node name="Player" parent="Sort" instance=ExtResource("2_mogo8")]
 position = Vector2(103, 96)
 
-[node name="Boss" parent="Sort" instance=ExtResource("4_nfd8j")]
-position = Vector2(340, 76)
-
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(235, 242)
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 shape = SubResource("RectangleShape2D_4v4fw")
+
+[node name="BossPath" type="Path2D" parent="."]
+position = Vector2(26, 23)
+curve = SubResource("Curve2D_7cb3o")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="BossPath"]
+position = Vector2(117, 15)
+rotation = 0.330297
+rotates = false
+
+[node name="Boss" parent="BossPath/PathFollow2D" instance=ExtResource("4_nfd8j")]
+rotation = -0.330297
 
 [connection signal="timeout" from="MaterialDropTimer" to="." method="_on_material_drop_timer_timeout"]

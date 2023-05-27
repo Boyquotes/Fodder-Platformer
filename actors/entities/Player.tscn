@@ -111,7 +111,7 @@ script = ExtResource("1_52sel")
 [node name="Hurtbox" parent="." instance=ExtResource("2_7q8e2")]
 position = Vector2(0, -18)
 collision_layer = 32
-collision_mask = 0
+collision_mask = 128
 monitorable = false
 
 [node name="Anim" type="AnimationPlayer" parent="."]

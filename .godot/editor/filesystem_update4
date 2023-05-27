@@ -3,3 +3,9 @@ res://scenes/World.tscn
 res://actors/entities/Player.tscn
 res://actors/objs/Item.tscn
 res://scenes/UI.tscn
+res://actors/entities/Boss.gd
+res://actors/weapons/boss_attacks/SkullBurst.tscn
+res://actors/weapons/boss_attacks/SkullBurst.gd
+res://actors/weapons/boss_attacks/Boss_Weapon_SkullBurst.tscn
+res://actors/weapons/boss_attacks/Boss_Weapon_SkullBurst.gd
+res://actors/weapons/boss_attacks/bullets/Skull.tscn

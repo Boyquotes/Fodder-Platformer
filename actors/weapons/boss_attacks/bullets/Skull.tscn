@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cf603uwr7vk0n"]
+
+[ext_resource type="Script" path="res://actors/weapons/boss_attacks/bullets/Skull.gd" id="1_43l8n"]
+[ext_resource type="Texture2D" uid="uid://cxb2j7uhgb24x" path="res://assets/Boss/Boss Weapons/Attack - Skull Blast (Reference).png" id="1_co666"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0ribm"]
+
+[node name="Skull" type="Node2D"]
+script = ExtResource("1_43l8n")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_co666")
+centered = false
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 128
+collision_mask = 32
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(16, 15)
+shape = SubResource("CircleShape2D_0ribm")
