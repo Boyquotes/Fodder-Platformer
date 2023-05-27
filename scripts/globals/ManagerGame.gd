@@ -1,9 +1,9 @@
 extends Node
 
-# pistol
-# shotgun
-# machine gun
-# rocketlauncher
+# pistol --
+# shotgun --
+# machine gun --
+# rocketlauncher --
 # homing missile
 # bomerang
 # bubble attack

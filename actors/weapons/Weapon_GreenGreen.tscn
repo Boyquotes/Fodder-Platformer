@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cq0uldbesxhme"]
+
+[ext_resource type="Script" path="res://actors/weapons/Weapon_GreenGreen.gd" id="1_mgqqw"]
+[ext_resource type="PackedScene" uid="uid://cbnc1l1qr84q2" path="res://actors/etc/WeaponDurationTimer.tscn" id="2_y1v56"]
+[ext_resource type="Texture2D" uid="uid://f0wgt6ylg46i" path="res://assets/Weapons/Homing Missile/Weapon - Homing Missile Gun.png" id="3_u1l6i"]
+
+[node name="Weapon_GreenGreen" type="Node2D"]
+script = ExtResource("1_mgqqw")
+
+[node name="WeaponDurationTimer" parent="." instance=ExtResource("2_y1v56")]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Gun1" type="Sprite2D" parent="Node2D"]
+unique_name_in_owner = true
+texture = ExtResource("3_u1l6i")
+offset = Vector2(14, 0)
