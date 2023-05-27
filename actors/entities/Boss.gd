@@ -34,7 +34,7 @@ func attack():
 	hand_anim.play("attack_1")
 	
 	var rand = randi() % weapons_list.size()
-	var w = load(weapons_list[1]).instantiate()
+	var w = load(weapons_list[0]).instantiate()
 	
 	add_child(w)
 	

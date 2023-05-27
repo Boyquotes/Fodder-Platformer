@@ -9,3 +9,6 @@ res://actors/etc/boss_weapon_duration.tscn
 res://actors/etc/boss_weapon_duration.gd
 res://actors/weapons/boss_attacks/Boss_Weapon_Sword.gd
 res://actors/entities/Player.tscn
+res://actors/weapons/boss_attacks/Boss_Weapon_SkullBurst.tscn
+res://actors/weapons/boss_attacks/Boss_Weapon_SkullBurst.gd
+res://actors/weapons/boss_attacks/bullets/Skull.gd

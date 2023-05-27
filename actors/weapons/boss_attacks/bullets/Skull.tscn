@@ -1,9 +1,46 @@
-[gd_scene load_steps=4 format=3 uid="uid://cf603uwr7vk0n"]
+[gd_scene load_steps=7 format=3 uid="uid://cf603uwr7vk0n"]
 
 [ext_resource type="Script" path="res://actors/weapons/boss_attacks/bullets/Skull.gd" id="1_43l8n"]
 [ext_resource type="Texture2D" uid="uid://cxb2j7uhgb24x" path="res://assets/Boss/Boss Weapons/Attack - Skull Blast (Reference).png" id="1_co666"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0ribm"]
+
+[sub_resource type="Animation" id="Animation_46xk7"]
+resource_name = "rotate"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 3.14159, 6.28319]
+}
+
+[sub_resource type="Animation" id="Animation_10uaa"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8jqe4"]
+_data = {
+"RESET": SubResource("Animation_10uaa"),
+"rotate": SubResource("Animation_46xk7")
+}
 
 [node name="Skull" type="Node2D"]
 script = ExtResource("1_43l8n")
@@ -18,3 +55,13 @@ monitoring = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_0ribm")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "rotate"
+libraries = {
+"": SubResource("AnimationLibrary_8jqe4")
+}
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
