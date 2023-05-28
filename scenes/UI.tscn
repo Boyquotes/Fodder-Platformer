@@ -13,6 +13,20 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_d5451")
 
+[node name="CraftLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 93.0
+offset_top = -24.0
+offset_right = 159.0
+offset_bottom = -7.0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 10
+text = "Craft? (Space)"
+
 [node name="WeaponSlot" parent="." instance=ExtResource("3_dr1f0")]
 layout_mode = 1
 anchors_preset = 2

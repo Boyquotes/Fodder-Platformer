@@ -9,3 +9,5 @@ res://actors/objs/Axe.gd
 res://actors/entities/Player.tscn
 res://actors/entities/Boss.tscn
 res://scripts/globals/ManagerGame.gd
+res://scenes/UI.tscn
+res://actors/entities/Player.gd

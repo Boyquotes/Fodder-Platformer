@@ -19,6 +19,10 @@ func _ready():
 
 
 func _process(delta):
+	if Input.is_action_just_pressed("craft"):
+		ManagerGame.produce_weapon()
+		return
+	
 	if Input.is_action_just_pressed("get"):
 		if player_detect.get_overlapping_bodies().size() > 0:
 			var item = player_detect.get_overlapping_bodies()[0]

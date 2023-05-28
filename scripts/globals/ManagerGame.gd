@@ -31,6 +31,11 @@ func _ready():
 
 
 func produce_weapon():
+	if material_on_hand[0] != '' and material_on_hand[1] != '':
+		pass
+	else:
+		return
+	
 	var w1 = material_on_hand[0]
 	var w2 = material_on_hand[1]
 	
@@ -58,9 +63,18 @@ func on_item_picked(color: String):
 		material_on_hand[1] = color
 		global_mat_slots[1].on_item_picked(color)
 	
-	if material_on_hand[0] == '' or material_on_hand[1] == '':
-		return
-	
 	if material_on_hand[0] != '' and material_on_hand[1] != '':
-		produce_weapon()
+		material_on_hand[1] = material_on_hand[0]
+		material_on_hand[0] = color
+		
+		global_mat_slots[0].on_item_picked(material_on_hand[0])
+		global_mat_slots[1].on_item_picked(material_on_hand[1])
+	
+	
+#	if material_on_hand[0] == '' or material_on_hand[1] == '':
+#		return
+	
+#	if material_on_hand[0] != '' and material_on_hand[1] != '':
+#		pass
+#		produce_weapon()
 	
