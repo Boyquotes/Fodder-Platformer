@@ -1,12 +1,12 @@
 2a60927148abd1d33b818b535e306557
-::res://::1685231336
+::res://::1685231980
 icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
 ::res://actors/::1684844480
-::res://actors/entities/::1685231794
+::res://actors/entities/::1685232515
 Boss.gd::GDScript::-1::1685198413::0::1::::<>Node2D<>::
-Boss.tscn::PackedScene::5691894371714821210::1685231784::0::1::::<><>::uid://bouuejkk45l3i<>res://actors/entities/Boss.gd<>uid://bb0ejat1va2p6
-Player.gd::GDScript::-1::1685007884::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::5181372897157771706::1685231794::0::1::::<><>::res://actors/entities/Player.gd<>uid://bb0ejat1va2p6<>uid://xiya0n4hdol5
+Boss.tscn::PackedScene::5691894371714821210::1685232515::0::1::::<><>::uid://bouuejkk45l3i<>res://actors/entities/Boss.gd<>uid://bb0ejat1va2p6
+Player.gd::GDScript::-1::1685232089::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::5181372897157771706::1685232515::0::1::::<><>::res://actors/entities/Player.gd<>uid://bb0ejat1va2p6<>uid://xiya0n4hdol5
 ::res://actors/etc/::1685191878
 boss_weapon_duration.gd::GDScript::-1::1685191854::0::1::::<>Timer<>::
 Boss_Weapon_Duration.tscn::PackedScene::2189218901411602235::1685191854::0::1::::<><>::res://actors/etc/boss_weapon_duration.gd
@@ -25,6 +25,7 @@ Homing.tscn::PackedScene::8005388316844000817::1685200191::0::1::::<><>::uid://b
 Item.gd::GDScript::-1::1684671692::0::1::::<>RigidBody2D<>::
 Item.tscn::PackedScene::5875275967392656849::1685179965::0::1::::<><>::res://actors/objs/Item.gd<>uid://b48ugi8q866ix
 Axe.gd::GDScript::-1::1685231720::0::1::::<>Node2D<>::
+Bubble.tscn::PackedScene::761604185669844751::1685232739::0::1::::<><>::res://actors/objs/Axe.gd<>uid://6xpis50hjt0c
 Rocket.tscn::PackedScene::6256418251890460034::1685161412::0::1::::<><>::res://actors/objs/Bullet.gd<>uid://jt8qnv7c8nn4
 ::res://actors/objs/components/::1685199722
 Hurtbox.gd::GDScript::-1::1685005141::0::1::::<>Area2D<>::
@@ -39,8 +40,8 @@ WeaponSlot.tscn::PackedScene::2198690613185976220::1685005094::0::1::::<><>::uid
 ::res://actors/weapons/::1685231810
 Weapon_BlueGreen.gd::GDScript::-1::1685231593::0::1::::<>Node2D<>::
 Weapon_BlueGreen.tscn::PackedScene::2825245557936494766::1685231784::0::1::::<><>::res://actors/weapons/Weapon_BlueGreen.gd<>uid://cbnc1l1qr84q2<>uid://6xpis50hjt0c
-Weapon_BlueRed.gd::GDScript::-1::1685231425::0::1::::<>Node2D<>::
-Weapon_BlueRed.tscn::PackedScene::4314143530854954593::1685231810::0::1::::<><>::res://actors/weapons/Weapon_BlueRed.gd<>uid://cbnc1l1qr84q2<>uid://chq8uyw6tyk7y
+Weapon_BlueRed.gd::GDScript::-1::1685232713::0::1::::<>Node2D<>::
+Weapon_BlueRed.tscn::PackedScene::4314143530854954593::1685232723::0::1::::<><>::res://actors/weapons/Weapon_BlueRed.gd<>uid://cbnc1l1qr84q2<>uid://djvrh8hiwmsq4
 Weapon_GreenBlue.gd::GDScript::-1::1685199900::0::1::::<>Node2D<>::
 Weapon_GreenBlue.tscn::PackedScene::91486039325907862::1685200191::0::1::::<><>::res://actors/weapons/Weapon_GreenBlue.gd<>uid://cbnc1l1qr84q2<>uid://chq8uyw6tyk7y
 Weapon_GreenGreen.gd::GDScript::-1::1685198500::0::1::::<>Node2D<>::
@@ -265,7 +266,7 @@ Material - Gray.png::CompressedTexture2D::5750774079245727112::1684386972::16843
 Material - Green.png::CompressedTexture2D::928413546292198649::1684386972::1684386975::1::::<><>::
 Material - Red.png::CompressedTexture2D::4302024571713896011::1684386972::1684386975::1::::<><>::
 Material - Yellow.png::CompressedTexture2D::7932439753223950969::1684386972::1684386975::1::::<><>::
-::res://assets/Weapons/::1685231875
+::res://assets/Weapons/::1685231904
 Bee (Bullet).png::CompressedTexture2D::1176274717723467342::1684386973::1684386975::1::::<><>::
 Bubble Blast (Bullet).png::CompressedTexture2D::5855576031506303547::1685231872::1685231875::1::::<><>::
 Grenade (Bullet).png::CompressedTexture2D::1442064201073601988::1684386974::1684386975::1::::<><>::
@@ -335,11 +336,11 @@ weapon_greenred.tres::CanvasTexture::6324779888931177421::1685016179::0::1::::<>
 weapon_redblue.tres::CanvasTexture::5100218422150551715::1685015124::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redgreen.tres::CanvasTexture::3680905077144516612::1685007945::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redred.tres::CanvasTexture::5675485340723160132::1684994502::0::1::::<><>::uid://dtyqdvkqj02sj
-::res://scenes/::1685231783
-UI.gd::GDScript::-1::1684846089::0::1::::<>Control<>::
-UI.tscn::PackedScene::8516772727192155131::1685179966::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
-World.gd::GDScript::-1::1685231605::0::1::::<>Node2D<>::
-World.tscn::PackedScene::5135273808706151712::1685231783::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
+::res://scenes/::1685232631
+UI.gd::GDScript::-1::1685232513::0::1::::<>Control<>::
+UI.tscn::PackedScene::8516772727192155131::1685232631::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
+World.gd::GDScript::-1::1685232723::0::1::::<>Node2D<>::
+World.tscn::PackedScene::5135273808706151712::1685232515::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
 ::res://scripts/::1684832863
-::res://scripts/globals/::1685231810
-ManagerGame.gd::GDScript::-1::1685231810::0::1::::<>Node<>::
+::res://scripts/globals/::1685232356
+ManagerGame.gd::GDScript::-1::1685232356::0::1::::<>Node<>::

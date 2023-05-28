@@ -12,3 +12,5 @@ res://scripts/globals/ManagerGame.gd
 res://scenes/UI.tscn
 res://actors/entities/Player.gd
 res://scenes/UI.gd
+res://actors/objs/Bubble.tscn
+res://actors/objs/Bubble.gd

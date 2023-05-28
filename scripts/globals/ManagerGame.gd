@@ -6,7 +6,7 @@ extends Node
 # rocketlauncher --
 # homing missile --
 # bomerang -- 
-# bubble attack
+# bubble attack --
 # axe --
 # soccerball
 

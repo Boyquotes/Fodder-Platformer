@@ -117,6 +117,7 @@ position = Vector2(0, -18)
 collision_layer = 32
 collision_mask = 128
 monitorable = false
+hp = 999
 
 [node name="Anim" type="AnimationPlayer" parent="."]
 libraries = {
