@@ -8,7 +8,7 @@ extends Node
 # bomerang -- 
 # bubble attack --
 # axe --
-# soccerball
+# soccerball --
 
 
 signal item_picked(str)

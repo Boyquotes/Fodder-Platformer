@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtbi3y4e4m81d"]
+
+[ext_resource type="Script" path="res://actors/weapons/Weapon_BlueBlue.gd" id="1_45ybe"]
+[ext_resource type="PackedScene" uid="uid://cbnc1l1qr84q2" path="res://actors/etc/WeaponDurationTimer.tscn" id="2_okfmj"]
+[ext_resource type="Texture2D" uid="uid://ba7uit2viymsd" path="res://assets/Weapons/Weapon - Soccer Ball.png" id="3_fb3ok"]
+
+[node name="Weapon_BlueBlue" type="Node2D"]
+script = ExtResource("1_45ybe")
+
+[node name="WeaponDurationTimer" parent="." instance=ExtResource("2_okfmj")]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Gun1" type="Sprite2D" parent="Node2D"]
+unique_name_in_owner = true
+texture = ExtResource("3_fb3ok")
+offset = Vector2(14, 0)
