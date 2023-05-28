@@ -11,3 +11,4 @@ res://actors/entities/Boss.tscn
 res://scripts/globals/ManagerGame.gd
 res://scenes/UI.tscn
 res://actors/entities/Player.gd
+res://scenes/UI.gd
