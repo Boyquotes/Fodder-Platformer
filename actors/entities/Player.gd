@@ -16,6 +16,8 @@ var has_weapon = false
 
 func _ready():
 	ManagerGame.global_player_ref = self
+	
+	ManagerGame.global_ui_ref.set_player_hp($Hurtbox.hp, $Hurtbox.hp)
 
 
 func _process(delta):
@@ -99,4 +101,5 @@ func remove_weapon():
 		aim.get_child(0).queue_free()
 
 
-
+func _on_hurtbox_area_entered(area):
+	ManagerGame.player_hit.emit()

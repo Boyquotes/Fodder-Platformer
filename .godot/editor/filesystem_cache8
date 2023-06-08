@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1686186884
+::res://::1686187435
 icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
 ::res://actors/::1684844480
 ::res://actors/entities/::1686049108
@@ -199,12 +199,14 @@ Heart With A Face.wav::AudioStreamWAV::5600923561701159253::1684386972::16843869
 Menu (1).wav::AudioStreamWAV::6195002836138459718::1684386972::1684386977::1::::<><>::
 Time Mage (1).wav::AudioStreamWAV::8370566251260411758::1684386972::1684386978::1::::<><>::
 Title Screen.wav::AudioStreamWAV::294450029976265226::1684386972::1684386977::1::::<><>::
-::res://assets/Player Animations/::1684832862
-Player - Spritesheet.png::CompressedTexture2D::1632316968026945332::1684679804::1684679805::1::::<><>::
+::res://assets/Player Animations/::1686186972
+Player - Spritesheet.png::CompressedTexture2D::1632316968026945332::1686186952::1686186972::1::::<><>::
 Player Teleport - Spritesheet.png::CompressedTexture2D::7713698127992818254::1684679804::1684679805::1::::<><>::
 Pluto - Spritesheet.png::CompressedTexture2D::3411574021390195052::1684679804::1684679805::1::::<><>::
-::res://assets/Player Life/::1684832862
+::res://assets/Player Life/::1686187435
 Health UI (Heart Battery).png::CompressedTexture2D::6702068177793049327::1684386973::1684386974::1::::<><>::
+hp_bar_back.png::CompressedTexture2D::2758049333111693288::1686187369::1686187428::1::::<><>::
+hp_bar_red_over.png::CompressedTexture2D::8459523842579617806::1686187338::1686187435::1::::<><>::
 Player - Health Bar (GAL)1.png::CompressedTexture2D::7000502143161394716::1684386973::1684386974::1::::<><>::
 Player - Health Bar (GAL)2.png::CompressedTexture2D::1600529806159018113::1684386973::1684386974::1::::<><>::
 Player - Health Bar (GAL)3.png::CompressedTexture2D::104335634879910262::1684386973::1684386975::1::::<><>::
@@ -212,7 +214,7 @@ Player - Health Bar (GAL)4.png::CompressedTexture2D::2275918058955491035::168438
 Player - Health Bar (GAL)5.png::CompressedTexture2D::3692552783571502156::1684386973::1684386975::1::::<><>::
 Player - Health Bar (GAL)6.png::CompressedTexture2D::5058922409994919765::1684386973::1684386975::1::::<><>::
 Player - Health Bar (GAL)7.png::CompressedTexture2D::7280934481570824724::1684386973::1684386975::1::::<><>::
-Player - Health Bar (GAL)8.png::CompressedTexture2D::8587989178794052195::1684386973::1684386975::1::::<><>::
+Player - Health Bar (GAL)8.png::CompressedTexture2D::8587989178794052195::1686187141::1686187204::1::::<><>::
 ::res://assets/UI/::1684832863
 Boss Jam 2023 - Title.png::CompressedTexture2D::3724768632931295793::1684386972::1684386975::1::::<><>::
 Item - UI Box (9-Slice).png::CompressedTexture2D::8866697960237207371::1684386972::1684386975::1::::<><>::
@@ -346,9 +348,9 @@ weapon_greenred.tres::CanvasTexture::6324779888931177421::1685016179::0::1::::<>
 weapon_redblue.tres::CanvasTexture::5100218422150551715::1685015124::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redgreen.tres::CanvasTexture::3680905077144516612::1685007945::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redred.tres::CanvasTexture::5675485340723160132::1684994502::0::1::::<><>::uid://dtyqdvkqj02sj
-::res://scenes/::1686049108
+::res://scenes/::1686187427
 UI.gd::GDScript::-1::1685232513::0::1::::<>Control<>::
-UI.tscn::PackedScene::8516772727192155131::1686049108::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
+UI.tscn::PackedScene::8516772727192155131::1686187427::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
 World.gd::GDScript::-1::1685235435::0::1::::<>Node2D<>::
 World.tscn::PackedScene::5135273808706151712::1686049108::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
 ::res://scripts/::1684832863

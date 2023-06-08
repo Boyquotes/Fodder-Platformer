@@ -15,7 +15,7 @@ signal item_picked(str)
 signal weapon_produced(weapon_name)
 signal weapon_expired()
 
-
+signal player_hit
 
 var material_on_hand = ['', '']
 
@@ -24,6 +24,7 @@ var global_mat_slots = []
 var global_weapon_slot = null
 var global_world_ref = null
 var global_boss_ref = null
+var global_ui_ref = null
 
 
 func _ready():
