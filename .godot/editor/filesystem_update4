@@ -1,9 +1,0 @@
-res://scenes/UI.tscn
-res://scenes/UI.gd
-res://scenes/World.tscn
-res://actors/entities/Player.tscn
-res://actors/entities/Boss.tscn
-res://scripts/globals/ManagerGame.gd
-res://actors/entities/Player.gd
-res://actors/objs/components/Hurtbox.tscn
-res://actors/entities/Boss.gd
