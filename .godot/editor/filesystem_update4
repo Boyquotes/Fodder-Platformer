@@ -6,3 +6,4 @@ res://actors/entities/Boss.tscn
 res://scripts/globals/ManagerGame.gd
 res://actors/entities/Player.gd
 res://actors/objs/components/Hurtbox.tscn
+res://actors/entities/Boss.gd

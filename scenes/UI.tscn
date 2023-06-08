@@ -77,3 +77,21 @@ stretch_margin_right = 6
 stretch_margin_bottom = 4
 texture_under = ExtResource("4_iv4kd")
 texture_progress = ExtResource("4_jnhhf")
+
+[node name="BossHPBar" type="TextureProgressBar" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -90.0
+offset_top = 7.0
+offset_right = -16.0
+offset_bottom = 18.0
+value = 30.0
+nine_patch_stretch = true
+stretch_margin_left = 6
+stretch_margin_top = 4
+stretch_margin_right = 6
+stretch_margin_bottom = 4
+texture_under = ExtResource("4_iv4kd")
+texture_progress = ExtResource("4_jnhhf")

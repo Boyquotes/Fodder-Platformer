@@ -20,6 +20,8 @@ var weapons_list = [
 
 func _ready():
 	ManagerGame.global_boss_ref = self
+	
+	ManagerGame.global_ui_ref.set_boss_hp($Hurtbox.hp, $Hurtbox.hp)
 
 
 func _physics_process(delta):
@@ -52,3 +54,7 @@ func _on_state_timer_timeout():
 	var rand = randi() % STATE.keys().size()
 	
 	state = STATE.values()[rand]
+
+
+func _on_hurtbox_area_entered(area):
+	ManagerGame.boss_hit.emit()

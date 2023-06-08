@@ -16,6 +16,7 @@ signal weapon_produced(weapon_name)
 signal weapon_expired()
 
 signal player_hit
+signal boss_hit
 
 var material_on_hand = ['', '']
 
