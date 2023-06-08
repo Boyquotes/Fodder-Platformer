@@ -2,9 +2,13 @@ extends Control
 
 @onready var hp_bar = $HPBar
 @onready var boss_hp_bar = $BossHPBar
+@onready var ready_anim = $Control/ReadyAnim
 
 
 func _ready():
+	
+	get_tree().paused = true
+	
 	ManagerGame.global_ui_ref = self
 	
 	ManagerGame.player_hit.connect(on_player_hit)
@@ -12,6 +16,9 @@ func _ready():
 	
 	ManagerGame.global_mat_slots.append($MaterialSlot)
 	ManagerGame.global_mat_slots.append($MaterialSlot2)
+	
+	ready_anim.show()
+	ready_anim.play("default")
 
 
 func _physics_process(delta):
@@ -37,3 +44,9 @@ func on_player_hit():
 
 func on_boss_hit():
 	boss_hp_bar.value = ManagerGame.global_boss_ref.get_node('Hurtbox').hp
+
+
+func _on_ready_anim_animation_finished():
+	ready_anim.hide()
+	
+	get_tree().paused = false

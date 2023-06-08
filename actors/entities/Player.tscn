@@ -1,8 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://cf25ppr6hlmmk"]
+[gd_scene load_steps=29 format=3 uid="uid://cf25ppr6hlmmk"]
 
 [ext_resource type="Script" path="res://actors/entities/Player.gd" id="1_52sel"]
 [ext_resource type="PackedScene" uid="uid://bb0ejat1va2p6" path="res://actors/objs/components/Hurtbox.tscn" id="2_7q8e2"]
 [ext_resource type="Texture2D" uid="uid://xiya0n4hdol5" path="res://assets/Player Animations/Player - Spritesheet.png" id="2_8ah8e"]
+[ext_resource type="Texture2D" uid="uid://dh5tqminxkx5w" path="res://assets/Player Animations/Player Teleport - Spritesheet.png" id="3_vclfw"]
 
 [sub_resource type="Animation" id="Animation_wkimc"]
 length = 0.001
@@ -108,6 +109,9 @@ tracks/0/keys = {
 "values": [12, 13, 14, 15, 16, 17]
 }
 
+[sub_resource type="Animation" id="Animation_slxev"]
+resource_name = "tp"
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_orort"]
 _data = {
 "RESET": SubResource("Animation_wkimc"),
@@ -115,8 +119,108 @@ _data = {
 "idle": SubResource("Animation_yi46n"),
 "idle_h": SubResource("Animation_krdp8"),
 "run": SubResource("Animation_jtm25"),
-"run_h": SubResource("Animation_jqwrs")
+"run_h": SubResource("Animation_jqwrs"),
+"tp": SubResource("Animation_slxev")
 }
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qs37f"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(768, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h2otp"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(864, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d1et4"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(960, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q0m3j"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(1056, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tt0eq"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(1152, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oed7m"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(1248, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k4bly"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(1344, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnnon"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(0, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j8owc"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2pm1u"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(192, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0b8ls"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(288, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m40c2"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(384, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bcw1e"]
+atlas = ExtResource("3_vclfw")
+region = Rect2(480, 96, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_octjg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qs37f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2otp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d1et4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q0m3j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tt0eq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oed7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k4bly")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnnon")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j8owc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2pm1u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0b8ls")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m40c2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bcw1e")
+}],
+"loop": false,
+"name": &"default",
+"speed": 8.0
+}]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_358io"]
 
@@ -138,6 +242,13 @@ hp = 20
 libraries = {
 "": SubResource("AnimationLibrary_orort")
 }
+
+[node name="TPAnim" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(0, -48)
+sprite_frames = SubResource("SpriteFrames_octjg")
+frame = 12
+frame_progress = 1.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -24)
@@ -163,3 +274,4 @@ unique_name_in_owner = true
 position = Vector2(0, -18)
 
 [connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered"]
+[connection signal="animation_finished" from="TPAnim" to="." method="_on_tp_anim_animation_finished"]

@@ -18,6 +18,10 @@ func _ready():
 	ManagerGame.global_player_ref = self
 	
 	ManagerGame.global_ui_ref.set_player_hp($Hurtbox.hp, $Hurtbox.hp)
+	
+	$Sprite2D.hide()
+	$TPAnim.show()
+	$TPAnim.play("default")
 
 
 func _process(delta):
@@ -103,3 +107,8 @@ func remove_weapon():
 
 func _on_hurtbox_area_entered(area):
 	ManagerGame.player_hit.emit()
+
+
+func _on_tp_anim_animation_finished():
+	$TPAnim.hide()
+	$Sprite2D.show()

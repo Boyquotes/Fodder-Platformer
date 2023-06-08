@@ -1,3 +1,5 @@
+AnimatedSprite2D
+Control
 TextureProgressBar
 ProgressBar
 CollisionShape2D
@@ -15,6 +17,5 @@ Node2D
 TextureRect
 Panel
 CanvasLayer
-AnimatedSprite2D
 RigidBody2D
 CharacterBody2D

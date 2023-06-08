@@ -17,6 +17,7 @@ signal weapon_expired()
 
 signal player_hit
 signal boss_hit
+signal game_start
 
 var material_on_hand = ['', '']
 

@@ -2,11 +2,11 @@
 ::res://::1686187435
 icon.svg::CompressedTexture2D::8214301853429893392::1684386865::1684386871::1::::<><>::
 ::res://actors/::1684844480
-::res://actors/entities/::1686049108
-Boss.gd::GDScript::-1::1685198413::0::1::::<>Node2D<>::
-Boss.tscn::PackedScene::5691894371714821210::1686049108::0::1::::<><>::uid://bouuejkk45l3i<>res://actors/entities/Boss.gd<>uid://bb0ejat1va2p6
-Player.gd::GDScript::-1::1685232089::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::5181372897157771706::1686049108::0::1::::<><>::res://actors/entities/Player.gd<>uid://bb0ejat1va2p6<>uid://xiya0n4hdol5
+::res://actors/entities/::1686190376
+Boss.gd::GDScript::-1::1686189482::0::1::::<>Node2D<>::
+Boss.tscn::PackedScene::5691894371714821210::1686190376::0::1::::<><>::uid://bouuejkk45l3i<>res://actors/entities/Boss.gd<>uid://bb0ejat1va2p6
+Player.gd::GDScript::-1::1686188824::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::5181372897157771706::1686190376::0::1::::<><>::res://actors/entities/Player.gd<>uid://bb0ejat1va2p6<>uid://xiya0n4hdol5
 ::res://actors/etc/::1685191878
 boss_weapon_duration.gd::GDScript::-1::1685191854::0::1::::<>Timer<>::
 Boss_Weapon_Duration.tscn::PackedScene::2189218901411602235::1685191854::0::1::::<><>::res://actors/etc/boss_weapon_duration.gd
@@ -30,9 +30,9 @@ Item.tscn::PackedScene::5875275967392656849::1685234694::0::1::::<><>::res://act
 Rocket.tscn::PackedScene::6256418251890460034::1685161412::0::1::::<><>::res://actors/objs/Bullet.gd<>uid://jt8qnv7c8nn4
 SoccerBall.gd::GDScript::-1::1685234849::0::1::::<>Node2D<>::
 SoccerBall.tscn::PackedScene::5151562187701427605::1685235414::0::1::::<><>::res://actors/objs/SoccerBall.gd<>uid://ba7uit2viymsd
-::res://actors/objs/components/::1685199722
+::res://actors/objs/components/::1686190376
 Hurtbox.gd::GDScript::-1::1685005141::0::1::::<>Area2D<>::
-Hurtbox.tscn::PackedScene::2508477941859537497::1685016452::0::1::::<><>::res://actors/objs/components/Hurtbox.gd
+Hurtbox.tscn::PackedScene::2508477941859537497::1686190376::0::1::::<><>::res://actors/objs/components/Hurtbox.gd
 Weapon_RedRed_Shooting.gd::GDScript::-1::1685004659::0::1::::<>Node2D<>::
 Weapon_RedRed_Shooting.tscn::PackedScene::8283284975876300774::1685004748::0::1::::<><>::res://actors/objs/components/Weapon_RedRed_Shooting.gd
 ::res://actors/ui/::1685014069
@@ -218,19 +218,19 @@ Player - Health Bar (GAL)8.png::CompressedTexture2D::8587989178794052195::168618
 ::res://assets/UI/::1684832863
 Boss Jam 2023 - Title.png::CompressedTexture2D::3724768632931295793::1684386972::1684386975::1::::<><>::
 Item - UI Box (9-Slice).png::CompressedTexture2D::8866697960237207371::1684386972::1684386975::1::::<><>::
-::res://assets/UI/Ready Font/::1684832863
-Image21.png::CompressedTexture2D::2983482204231335031::1684386972::1684386975::1::::<><>::
-Image22.png::CompressedTexture2D::8453021310973984967::1684386972::1684386975::1::::<><>::
-Image23.png::CompressedTexture2D::4125888172865121289::1684386972::1684386975::1::::<><>::
-Image24.png::CompressedTexture2D::6315348513973579123::1684386972::1684386975::1::::<><>::
-Image25.png::CompressedTexture2D::4220928614533418833::1684386972::1684386975::1::::<><>::
-Image26.png::CompressedTexture2D::3266022163110943356::1684386972::1684386975::1::::<><>::
-Image27.png::CompressedTexture2D::750216206857902545::1684386972::1684386975::1::::<><>::
-Image28.png::CompressedTexture2D::6735768146899584584::1684386972::1684386975::1::::<><>::
-Image29.png::CompressedTexture2D::1563384877730295576::1684386972::1684386975::1::::<><>::
-Image210.png::CompressedTexture2D::1918365537004856700::1684386972::1684386975::1::::<><>::
-Image211.png::CompressedTexture2D::1878638318708559617::1684386972::1684386975::1::::<><>::
-Image212.png::CompressedTexture2D::256643170371121647::1684386972::1684386975::1::::<><>::
+::res://assets/UI/Ready Font/::1686190030
+Image21.png::CompressedTexture2D::2983482204231335031::1686190399::1686190030::1::::<><>::
+Image22.png::CompressedTexture2D::8453021310973984967::1686190399::1686190030::1::::<><>::
+Image23.png::CompressedTexture2D::4125888172865121289::1686190399::1686190030::1::::<><>::
+Image24.png::CompressedTexture2D::6315348513973579123::1686190399::1686190401::1::::<><>::
+Image25.png::CompressedTexture2D::4220928614533418833::1686190399::1686190030::1::::<><>::
+Image26.png::CompressedTexture2D::3266022163110943356::1686190399::1686190030::1::::<><>::
+Image27.png::CompressedTexture2D::750216206857902545::1686190399::1686190030::1::::<><>::
+Image28.png::CompressedTexture2D::6735768146899584584::1686190399::1686190030::1::::<><>::
+Image29.png::CompressedTexture2D::1563384877730295576::1686190399::1686190030::1::::<><>::
+Image210.png::CompressedTexture2D::1918365537004856700::1686190028::1686190030::1::::<><>::
+Image211.png::CompressedTexture2D::1878638318708559617::1686190028::1686190030::1::::<><>::
+Image212.png::CompressedTexture2D::256643170371121647::1686190028::1686190030::1::::<><>::
 ::res://assets/UI/Weapon Icons/::1684832863
 HUD - Weapon Icon Layouts (GAL)1.png::CompressedTexture2D::1869611280827150524::1684386972::1684386975::1::::<><>::
 HUD - Weapon Icon Layouts (GAL)2.png::CompressedTexture2D::8543373094743736625::1684386972::1684386975::1::::<><>::
@@ -348,11 +348,11 @@ weapon_greenred.tres::CanvasTexture::6324779888931177421::1685016179::0::1::::<>
 weapon_redblue.tres::CanvasTexture::5100218422150551715::1685015124::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redgreen.tres::CanvasTexture::3680905077144516612::1685007945::0::1::::<><>::uid://dcg055h1vb5kx
 weapon_redred.tres::CanvasTexture::5675485340723160132::1684994502::0::1::::<><>::uid://dtyqdvkqj02sj
-::res://scenes/::1686187427
-UI.gd::GDScript::-1::1685232513::0::1::::<>Control<>::
-UI.tscn::PackedScene::8516772727192155131::1686187427::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge
+::res://scenes/::1686190383
+UI.gd::GDScript::-1::1686190373::0::1::::<>Control<>::
+UI.tscn::PackedScene::8516772727192155131::1686190376::0::1::::<><>::res://scenes/UI.gd<>uid://dabjqk3dy2d1g<>uid://6lcd325n3hge<>uid://bfkaw1anscyfo<>uid://dsr4eeyxm3jg5<>uid://birhrsrkyurpv<>uid://dsoya5brg37mp<>uid://by1u1mmuwwekv<>uid://cv8g4qv8iimqd<>uid://b1ewcvx3kd674<>uid://bmsc54qk26q0c<>uid://kxn7lyv2w6cr<>uid://c274d8th8q8l5<>uid://wjkyq6ouhwrg<>uid://2ljg2lotfklg<>uid://11a5s3aqut18<>uid://dwk41do4ldjj
 World.gd::GDScript::-1::1685235435::0::1::::<>Node2D<>::
-World.tscn::PackedScene::5135273808706151712::1686049108::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
+World.tscn::PackedScene::5135273808706151712::1686190383::0::1::::<><>::res://scenes/World.gd<>uid://c8fjo0tj4f542<>uid://cf25ppr6hlmmk<>uid://dtluac5j5kndr<>uid://cndgw0a24gk7s
 ::res://scripts/::1684832863
-::res://scripts/globals/::1685235678
-ManagerGame.gd::GDScript::-1::1685235678::0::1::::<>Node<>::
+::res://scripts/globals/::1686190151
+ManagerGame.gd::GDScript::-1::1686190151::0::1::::<>Node<>::
