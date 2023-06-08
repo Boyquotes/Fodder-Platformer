@@ -1,17 +1,19 @@
 extends CharacterBody2D
 
 
+@onready var player_detect = $PlayerDetect
+@onready var aim = get_node('%Aim')
+@onready var anim = $Anim
+@onready var sprite = $Sprite2D
+
 var vel = Vector2.ZERO
 var gravity = 70.0
 var jump_force = 800.0
 var move_speed = 200.0
 var has_weapon = false
 
+var can_move = true
 
-@onready var player_detect = $PlayerDetect
-@onready var aim = get_node('%Aim')
-@onready var anim = $Anim
-@onready var sprite = $Sprite2D
 
 
 func _ready():
@@ -22,6 +24,7 @@ func _ready():
 	$Sprite2D.hide()
 	$TPAnim.show()
 	$TPAnim.play("default")
+	can_move = false
 
 
 func _process(delta):
@@ -45,7 +48,8 @@ func _physics_process(delta):
 	if is_on_floor() and Input.is_action_just_pressed('ui_up'):
 		vel.y = -jump_force
 	
-	vel.x = Input.get_action_strength('ui_right') - Input.get_action_strength('ui_left')
+	if can_move:
+		vel.x = Input.get_action_strength('ui_right') - Input.get_action_strength('ui_left')
 	
 	var look = global_position.direction_to(get_global_mouse_position())
 	if look.x > 0.5:
@@ -112,3 +116,5 @@ func _on_hurtbox_area_entered(area):
 func _on_tp_anim_animation_finished():
 	$TPAnim.hide()
 	$Sprite2D.show()
+	
+	can_move = true
