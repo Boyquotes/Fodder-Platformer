@@ -11,7 +11,7 @@ func _process(delta):
 		tick += delta
 		
 		if tick > speed:
-			ManagerGame.global_world_ref.spawn_bullet(1, global_position, 400.0)
+			ManagerGame.global_world_ref.spawn_bullet(1, $BulletSpawn.global_position, 400.0)
 			
 			tick = 0.0
 

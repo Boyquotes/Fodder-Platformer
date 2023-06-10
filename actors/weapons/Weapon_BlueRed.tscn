@@ -16,3 +16,6 @@ unique_name_in_owner = true
 position = Vector2(0, -5)
 texture = ExtResource("3_y610f")
 offset = Vector2(14, 0)
+
+[node name="BulletSpawn" type="Node2D" parent="."]
+position = Vector2(16, -10)

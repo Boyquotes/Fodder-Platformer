@@ -8,7 +8,7 @@ extends CharacterBody2D
 
 var vel = Vector2.ZERO
 var gravity = 70.0
-var jump_force = 800.0
+var jump_force = 900.0
 var move_speed = 200.0
 var has_weapon = false
 

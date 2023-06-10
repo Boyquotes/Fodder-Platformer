@@ -22,3 +22,6 @@ z_index = -1
 position = Vector2(4, 2)
 texture = ExtResource("2_oqm6k")
 offset = Vector2(14, 0)
+
+[node name="BulletSpawn" type="Node2D" parent="."]
+position = Vector2(28, 0)

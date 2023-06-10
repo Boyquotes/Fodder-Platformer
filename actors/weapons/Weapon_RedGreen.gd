@@ -5,7 +5,7 @@ extends Node2D
 
 func _process(delta):
 	if Input.is_action_just_pressed("shoot"):
-		ManagerGame.global_world_ref.spawn_bullet(6, global_position, 400.0)
+		ManagerGame.global_world_ref.spawn_bullet(6, $BulletSpawn.global_position, 400.0)
 
 
 func _physics_process(delta):

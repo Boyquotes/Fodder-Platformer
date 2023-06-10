@@ -15,3 +15,6 @@ script = ExtResource("1_mgqqw")
 unique_name_in_owner = true
 texture = ExtResource("3_u1l6i")
 offset = Vector2(14, 0)
+
+[node name="BulletSpawn" type="Node2D" parent="."]
+position = Vector2(25, 0)
