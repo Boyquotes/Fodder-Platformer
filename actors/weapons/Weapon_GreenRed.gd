@@ -2,7 +2,7 @@ extends Node2D
 
 @onready var gun = $Node2D/Gun1
 
-var speed = .3
+var speed = .5
 var tick = 0.0
 
 func _process(delta):

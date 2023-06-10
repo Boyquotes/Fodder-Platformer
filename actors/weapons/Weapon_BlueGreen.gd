@@ -6,7 +6,7 @@ func _process(delta):
 	if Input.is_action_just_pressed("shoot"):
 		ManagerGame.global_world_ref.spawn_bullet(1, global_position, 400.0, 4)
 		
-		$WeaponDurationTimer._on_timeout()
+#		$WeaponDurationTimer._on_timeout()
 
 
 func _physics_process(delta):

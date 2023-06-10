@@ -8,6 +8,7 @@
 script = ExtResource("1_xsi2k")
 
 [node name="WeaponDurationTimer" parent="." instance=ExtResource("2_v3vg2")]
+wait_time = 5.0
 
 [node name="Node2D" type="Node2D" parent="."]
 

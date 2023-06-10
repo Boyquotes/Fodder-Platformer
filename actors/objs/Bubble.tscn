@@ -1,10 +1,49 @@
-[gd_scene load_steps=4 format=3 uid="uid://k36rlf6kyvyl"]
+[gd_scene load_steps=7 format=3 uid="uid://k36rlf6kyvyl"]
 
 [ext_resource type="Script" path="res://actors/objs/Bubble.gd" id="1_8lw2a"]
 [ext_resource type="Texture2D" uid="uid://cpoqqm44gv6vn" path="res://assets/Weapons/Bubble Blast (Bullet).png" id="2_thhrs"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_smvln"]
 radius = 14.0357
+
+[sub_resource type="Animation" id="Animation_hc0cm"]
+resource_name = "squish"
+length = 3.0
+loop_mode = 1
+step = 0.75
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.75, 1.5, 2.25),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(0.8, 1.2), Vector2(1, 1), Vector2(0.8, 1.2)]
+}
+
+[sub_resource type="Animation" id="Animation_fykwl"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fr77k"]
+_data = {
+"RESET": SubResource("Animation_fykwl"),
+"squish": SubResource("Animation_hc0cm")
+}
 
 [node name="Bubble" type="Node2D"]
 script = ExtResource("1_8lw2a")
@@ -20,5 +59,11 @@ collision_mask = 16
 shape = SubResource("CircleShape2D_smvln")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "squish"
+libraries = {
+"": SubResource("AnimationLibrary_fr77k")
+}
 
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
