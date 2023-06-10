@@ -2,11 +2,17 @@ extends Node2D
 
 @onready var gun = $Node2D/Gun1
 
-
+var speed = .3
+var tick = 0.0
 
 func _process(delta):
-	if Input.is_action_just_pressed("shoot"):
-		ManagerGame.global_world_ref.spawn_bullet(1, global_position, 200.0, 1)
+	if Input.is_action_pressed("shoot"):
+		tick += delta
+		
+		if tick > speed:
+			ManagerGame.global_world_ref.spawn_bullet(1, global_position, 200.0, 1)
+			
+			tick = 0.0
 
 
 func _physics_process(delta):
